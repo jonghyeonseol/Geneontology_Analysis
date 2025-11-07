@@ -74,6 +74,13 @@ read_go_results <- function(file_path) {
     return(NULL)
   }
 
+  # Filter by Fold Enrichment threshold (>= 10)
+  data <- data[data$Fold_Enrichment >= 10, ]
+
+  if (nrow(data) == 0) {
+    return(NULL)
+  }
+
   # Calculate Gene Ratio
   data$Gene_Ratio <- data$Count / total_genes
 
@@ -121,7 +128,7 @@ create_dotplot <- function(data, title) {
     return(NULL)
   }
 
-  # Prepare data for plotting (highest Gene Ratio at top)
+  # Prepare data for plotting (highest Gene Ratio at top - descending order)
   plot_data <- data %>%
     arrange(Gene_Ratio) %>%
     mutate(GO_Term = factor(GO_Term, levels = GO_Term))
