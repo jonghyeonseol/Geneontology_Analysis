@@ -1,0 +1,51 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Homo sapiens - REFLIST (20580)	upload_1 (29)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+collagen type I trimer (GO:0005584)	2	2	.00	+	 > 100	1.92E-06	2.28E-04
+calprotectin complex (GO:1990660)	2	2	.00	+	 > 100	1.92E-06	2.15E-04
+spectrin-associated cytoskeleton (GO:0014731)	9	3	.01	+	 > 100	2.10E-07	4.71E-05
+haptoglobin-hemoglobin complex (GO:0031838)	10	3	.01	+	 > 100	3.00E-07	5.04E-05
+hemoglobin complex (GO:0005833)	11	3	.02	+	 > 100	4.12E-07	5.54E-05
+ankyrin-1 complex (GO:0170014)	8	2	.01	+	 > 100	5.34E-05	3.85E-03
+fibrinogen complex (GO:0005577)	8	2	.01	+	 > 100	5.34E-05	3.72E-03
+spectrin (GO:0008091)	9	2	.01	+	 > 100	6.86E-05	4.47E-03
+fibrillar collagen trimer (GO:0005583)	11	2	.02	+	 > 100	1.05E-04	6.60E-03
+fibrillar collagen (GO:0098643)	11	2	.02	+	 > 100	1.05E-04	6.40E-03
+endocytic vesicle lumen (GO:0071682)	22	4	.03	+	 > 100	2.28E-08	6.59E-06
+high-density lipoprotein particle (GO:0034364)	27	3	.04	+	78.85	7.19E-06	7.26E-04
+lipoprotein particle (GO:1990777)	37	3	.05	+	57.54	1.89E-05	1.74E-03
+plasma lipoprotein particle (GO:0034358)	37	3	.05	+	57.54	1.89E-05	1.66E-03
+protein-lipid complex (GO:0032994)	40	3	.06	+	53.22	2.40E-05	1.86E-03
+complex of collagen trimers (GO:0098644)	27	2	.04	+	52.57	6.58E-04	3.50E-02
+blood microparticle (GO:0072562)	144	5	.20	+	24.64	1.62E-06	2.05E-04
+nucleosome (GO:0000786)	102	3	.14	+	20.87	3.93E-04	2.14E-02
+secretory granule lumen (GO:0034774)	326	7	.46	+	15.24	2.71E-07	4.98E-05
+cytoplasmic vesicle lumen (GO:0060205)	331	7	.47	+	15.01	3.01E-07	4.67E-05
+vesicle lumen (GO:0031983)	332	7	.47	+	14.96	3.07E-07	4.43E-05
+extracellular matrix (GO:0031012)	485	6	.68	+	8.78	4.98E-05	3.72E-03
+external encapsulating structure (GO:0030312)	501	6	.71	+	8.50	5.96E-05	4.01E-03
+secretory granule (GO:0030141)	942	9	1.33	+	6.78	3.71E-06	3.94E-04
+actin cytoskeleton (GO:0015629)	544	5	.77	+	6.52	8.90E-04	4.60E-02
+secretory vesicle (GO:0099503)	1133	9	1.60	+	5.64	1.65E-05	1.59E-03
+extracellular exosome (GO:0070062)	2102	16	2.96	+	5.40	2.46E-09	1.66E-06
+extracellular vesicle (GO:1903561)	2131	16	3.00	+	5.33	3.01E-09	1.52E-06
+extracellular organelle (GO:0043230)	2132	16	3.00	+	5.33	3.03E-09	1.22E-06
+extracellular membrane-bounded organelle (GO:0065010)	2132	16	3.00	+	5.33	3.03E-09	1.02E-06
+extracellular space (GO:0005615)	3225	21	4.54	+	4.62	1.40E-11	2.83E-08
+extracellular region (GO:0005576)	4287	23	6.04	+	3.81	2.57E-11	2.59E-08
+cytoplasmic vesicle (GO:0031410)	2614	13	3.68	+	3.53	2.03E-05	1.71E-03
+intracellular vesicle (GO:0097708)	2622	13	3.69	+	3.52	2.10E-05	1.69E-03
+vesicle (GO:0031982)	4083	19	5.75	+	3.30	1.10E-07	2.76E-05
+protein-containing complex (GO:0032991)	5972	22	8.42	+	2.61	2.38E-07	4.81E-05
+organelle lumen (GO:0043233)	5831	18	8.22	+	2.19	2.19E-04	1.30E-02
+intracellular organelle lumen (GO:0070013)	5831	18	8.22	+	2.19	2.19E-04	1.26E-02
+membrane-enclosed lumen (GO:0031974)	5831	18	8.22	+	2.19	2.19E-04	1.23E-02

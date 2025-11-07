@@ -1,0 +1,98 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Homo sapiens - REFLIST (20580)	upload_1 (29)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+neutrophil aggregation (GO:0070488)	2	2	.00	+	 > 100	1.92E-06	1.29E-03
+peptidyl-cysteine S-nitrosylation (GO:0018119)	4	2	.01	+	 > 100	1.15E-05	4.34E-03
+protein nitrosylation (GO:0017014)	4	2	.01	+	 > 100	1.15E-05	4.24E-03
+nitric oxide transport (GO:0030185)	4	2	.01	+	 > 100	1.15E-05	4.13E-03
+autocrine signaling (GO:0035425)	7	2	.01	+	 > 100	4.01E-05	1.14E-02
+regulation of respiratory burst involved in inflammatory response (GO:0060264)	8	2	.01	+	 > 100	5.34E-05	1.38E-02
+oxygen transport (GO:0015671)	14	3	.02	+	 > 100	9.06E-07	7.43E-04
+carbon dioxide transport (GO:0015670)	14	3	.02	+	 > 100	9.06E-07	7.04E-04
+leukocyte aggregation (GO:0070486)	11	2	.02	+	 > 100	1.05E-04	2.27E-02
+opsonization (GO:0008228)	11	2	.02	+	 > 100	1.05E-04	2.24E-02
+skin morphogenesis (GO:0043589)	12	2	.02	+	 > 100	1.25E-04	2.47E-02
+innate immune response in mucosa (GO:0002227)	19	3	.03	+	 > 100	2.40E-06	1.54E-03
+leukocyte migration involved in inflammatory response (GO:0002523)	20	3	.03	+	 > 100	2.82E-06	1.67E-03
+gas transport (GO:0015669)	21	3	.03	+	 > 100	3.29E-06	1.73E-03
+chronic inflammatory response (GO:0002544)	15	2	.02	+	94.62	1.99E-04	3.63E-02
+positive regulation of toll-like receptor 4 signaling pathway (GO:0034145)	16	2	.02	+	88.71	2.27E-04	3.99E-02
+one-carbon compound transport (GO:0019755)	25	3	.04	+	85.16	5.67E-06	2.70E-03
+acute-phase response (GO:0006953)	40	4	.06	+	70.97	2.80E-07	3.18E-04
+mucosal immune response (GO:0002385)	33	3	.05	+	64.51	1.33E-05	4.37E-03
+neutrophil chemotaxis (GO:0030593)	56	5	.08	+	63.36	1.40E-08	4.14E-05
+defense response to fungus (GO:0050832)	59	5	.08	+	60.14	1.83E-08	4.51E-05
+organ or tissue specific immune response (GO:0002251)	37	3	.05	+	57.54	1.89E-05	6.07E-03
+granulocyte chemotaxis (GO:0071621)	78	6	.11	+	54.59	1.08E-09	1.59E-05
+neutrophil migration (GO:1990266)	69	5	.10	+	51.42	4.08E-08	7.52E-05
+response to fungus (GO:0009620)	70	5	.10	+	50.69	4.39E-08	6.47E-05
+granulocyte migration (GO:0097530)	94	6	.13	+	45.30	3.37E-09	2.49E-05
+platelet aggregation (GO:0070527)	48	3	.07	+	44.35	4.17E-05	1.16E-02
+erythrocyte development (GO:0048821)	52	3	.07	+	40.94	5.31E-05	1.40E-02
+acute inflammatory response (GO:0002526)	73	4	.10	+	38.89	3.24E-06	1.77E-03
+regulation of interleukin-8 production (GO:0032677)	85	4	.12	+	33.40	5.95E-06	2.74E-03
+homotypic cell-cell adhesion (GO:0034109)	65	3	.09	+	32.75	1.04E-04	2.28E-02
+myeloid leukocyte migration (GO:0097529)	133	6	.19	+	32.01	2.73E-08	5.76E-05
+antibacterial humoral response (GO:0019731)	68	3	.10	+	31.31	1.19E-04	2.43E-02
+antimicrobial humoral immune response mediated by antimicrobial peptide (GO:0061844)	122	5	.17	+	29.08	7.14E-07	7.03E-04
+leukocyte chemotaxis (GO:0030595)	147	6	.21	+	28.97	4.97E-08	6.67E-05
+defense response to Gram-positive bacterium (GO:0050830)	123	5	.17	+	28.85	7.44E-07	6.46E-04
+defense response to Gram-negative bacterium (GO:0050829)	102	4	.14	+	27.83	1.23E-05	4.21E-03
+platelet activation (GO:0030168)	102	4	.14	+	27.83	1.23E-05	4.12E-03
+cellular oxidant detoxification (GO:0098869)	82	3	.12	+	25.96	2.07E-04	3.68E-02
+endothelial cell migration (GO:0043542)	85	3	.12	+	25.05	2.30E-04	3.99E-02
+disruption of cell in another organism (GO:0141061)	115	4	.16	+	24.68	1.97E-05	6.19E-03
+killing of cells of another organism (GO:0031640)	115	4	.16	+	24.68	1.97E-05	6.06E-03
+myeloid cell development (GO:0061515)	89	3	.13	+	23.92	2.63E-04	4.52E-02
+disruption of anatomical structure in another organism (GO:0141060)	119	4	.17	+	23.85	2.26E-05	6.66E-03
+antimicrobial humoral response (GO:0019730)	168	5	.24	+	21.12	3.46E-06	1.76E-03
+cell chemotaxis (GO:0060326)	220	6	.31	+	19.35	5.39E-07	5.68E-04
+blood coagulation (GO:0007596)	191	5	.27	+	18.58	6.47E-06	2.90E-03
+coagulation (GO:0050817)	193	5	.27	+	18.38	6.81E-06	2.96E-03
+hemostasis (GO:0007599)	197	5	.28	+	18.01	7.53E-06	3.17E-03
+myeloid cell homeostasis (GO:0002262)	158	4	.22	+	17.97	6.84E-05	1.74E-02
+defense response to bacterium (GO:0042742)	319	8	.45	+	17.80	9.87E-09	3.64E-05
+positive regulation of inflammatory response (GO:0050729)	166	4	.23	+	17.10	8.28E-05	2.00E-02
+leukocyte migration (GO:0050900)	253	6	.36	+	16.83	1.22E-06	8.57E-04
+cell killing (GO:0001906)	180	4	.25	+	15.77	1.13E-04	2.39E-02
+regulation of pattern recognition receptor signaling pathway (GO:0062207)	188	4	.26	+	15.10	1.34E-04	2.60E-02
+humoral immune response (GO:0006959)	273	5	.38	+	13.00	3.62E-05	1.05E-02
+chemotaxis (GO:0006935)	351	6	.49	+	12.13	8.04E-06	3.21E-03
+taxis (GO:0042330)	353	6	.50	+	12.06	8.31E-06	3.23E-03
+inflammatory response (GO:0006954)	601	10	.85	+	11.81	5.08E-09	2.50E-05
+locomotion (GO:0040011)	377	6	.53	+	11.29	1.21E-05	4.24E-03
+homeostasis of number of cells (GO:0048872)	322	5	.45	+	11.02	7.93E-05	1.98E-02
+wound healing (GO:0042060)	339	5	.48	+	10.47	1.01E-04	2.26E-02
+regulation of inflammatory response (GO:0050727)	421	6	.59	+	10.11	2.25E-05	6.79E-03
+regulation of body fluid levels (GO:0050878)	381	5	.54	+	9.31	1.74E-04	3.26E-02
+response to bacterium (GO:0009617)	704	8	.99	+	8.06	4.09E-06	2.01E-03
+innate immune response (GO:0045087)	800	9	1.13	+	7.98	9.63E-07	7.11E-04
+cell-cell adhesion (GO:0098609)	551	6	.78	+	7.73	1.01E-04	2.29E-02
+defense response to symbiont (GO:0140546)	908	9	1.28	+	7.03	2.75E-06	1.69E-03
+defense response to other organism (GO:0098542)	924	9	1.30	+	6.91	3.17E-06	1.80E-03
+cell activation (GO:0001775)	776	7	1.09	+	6.40	7.96E-05	1.96E-02
+defense response (GO:0006952)	1527	13	2.15	+	6.04	4.32E-08	7.08E-05
+regulation of defense response (GO:0031347)	863	7	1.22	+	5.76	1.55E-04	2.92E-02
+regulation of response to external stimulus (GO:0032101)	1122	8	1.58	+	5.06	1.17E-04	2.43E-02
+response to other organism (GO:0051707)	1457	9	2.05	+	4.38	1.19E-04	2.41E-02
+response to external biotic stimulus (GO:0043207)	1460	9	2.06	+	4.37	1.21E-04	2.41E-02
+immune system process (GO:0002376)	2436	15	3.43	+	4.37	1.83E-07	2.25E-04
+biological process involved in interspecies interaction between organisms (GO:0044419)	1627	10	2.29	+	4.36	4.59E-05	1.25E-02
+response to biotic stimulus (GO:0009607)	1507	9	2.12	+	4.24	1.54E-04	2.96E-02
+cellular response to chemical stimulus (GO:0070887)	2010	12	2.83	+	4.24	7.74E-06	3.17E-03
+immune response (GO:0006955)	1753	10	2.47	+	4.05	8.66E-05	2.06E-02
+response to external stimulus (GO:0009605)	2003	11	2.82	+	3.90	4.75E-05	1.27E-02
+response to stress (GO:0006950)	3577	17	5.04	+	3.37	7.17E-07	6.61E-04
+regulation of multicellular organismal process (GO:0051239)	2996	13	4.22	+	3.08	8.79E-05	2.06E-02
+regulation of biological quality (GO:0065008)	3033	13	4.27	+	3.04	1.00E-04	2.31E-02
+response to chemical (GO:0042221)	3736	14	5.26	+	2.66	2.04E-04	3.67E-02
+multicellular organismal process (GO:0032501)	6486	19	9.14	+	2.08	1.88E-04	3.47E-02

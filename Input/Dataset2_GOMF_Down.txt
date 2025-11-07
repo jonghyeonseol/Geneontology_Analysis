@@ -1,0 +1,35 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	Homo sapiens - REFLIST (20580)	upload_1 (99)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+ethanolaminephosphotransferase activity (GO:0004307)	2	2	.01	+	 > 100	2.29E-05	9.02E-03
+cholesterol-5,6-oxide hydrolase activity (GO:0033963)	2	2	.01	+	 > 100	2.29E-05	8.37E-03
+caffeine oxidase activity (GO:0034875)	4	2	.02	+	 > 100	1.37E-04	3.18E-02
+oxidoreductase activity, acting on CH or CH2 groups, quinone or similar compound as acceptor (GO:0033695)	4	2	.02	+	 > 100	1.37E-04	3.04E-02
+CDP-alcohol phosphatidyltransferase activity (GO:0017169)	7	3	.03	+	89.09	3.73E-06	2.38E-03
+alcohol dehydrogenase (NAD+) activity (GO:0004022)	23	6	.11	+	54.23	1.00E-09	1.28E-06
+acyl-CoA dehydrogenase activity (GO:0003995)	12	3	.06	+	51.97	2.30E-05	7.85E-03
+ether hydrolase activity (GO:0016803)	12	3	.06	+	51.97	2.30E-05	7.36E-03
+hydrolase activity, acting on ether bonds (GO:0016801)	12	3	.06	+	51.97	2.30E-05	6.93E-03
+oxidoreductase activity, acting on the CH-CH group of donors, with a flavin as acceptor (GO:0052890)	12	3	.06	+	51.97	2.30E-05	6.54E-03
+all-trans-retinol dehydrogenase (NAD+) activity (GO:0004745)	20	5	.10	+	51.97	3.41E-08	2.49E-05
+phosphotransferase activity, for other substituted phosphate groups (GO:0016780)	20	3	.10	+	31.18	1.16E-04	2.83E-02
+alcohol dehydrogenase [NAD(P)+] activity (GO:0018455)	51	7	.25	+	28.53	4.68E-09	4.79E-06
+steroid dehydrogenase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor (GO:0033764)	33	4	.16	+	25.20	1.85E-05	7.90E-03
+steroid dehydrogenase activity (GO:0016229)	36	4	.17	+	23.10	2.64E-05	7.10E-03
+oxidoreductase activity, acting on the CH-CH group of donors (GO:0016627)	60	5	.29	+	17.32	1.03E-05	4.79E-03
+amino acid binding (GO:0016597)	48	4	.23	+	17.32	8.33E-05	2.13E-02
+oxidoreductase activity, acting on CH-OH group of donors (GO:0016614)	132	10	.63	+	15.75	8.02E-10	2.05E-06
+oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor (GO:0016616)	123	9	.59	+	15.21	7.97E-09	6.80E-06
+modified amino acid binding (GO:0072341)	91	6	.44	+	13.71	5.10E-06	2.90E-03
+lyase activity (GO:0016829)	204	8	.98	+	8.15	6.43E-06	3.29E-03
+oxidoreductase activity (GO:0016491)	674	24	3.24	+	7.40	9.33E-15	4.77E-11
+catalytic activity (GO:0003824)	5609	56	26.98	+	2.08	9.27E-10	1.58E-06

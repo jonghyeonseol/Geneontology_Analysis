@@ -1,0 +1,86 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Homo sapiens - REFLIST (20580)	upload_1 (99)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+cellular response to oleic acid (GO:0071400)	3	2	.01	+	 > 100	6.85E-05	1.94E-02
+response to oleic acid (GO:0034201)	4	2	.02	+	 > 100	1.37E-04	3.15E-02
+cholesterol biosynthetic process via desmosterol (GO:0033489)	4	2	.02	+	 > 100	1.37E-04	3.10E-02
+cellular response to ammonium ion (GO:0071242)	5	2	.02	+	83.15	2.27E-04	4.72E-02
+intracellular sphingolipid homeostasis (GO:0090156)	5	2	.02	+	83.15	2.27E-04	4.65E-02
+negative regulation of ceramide biosynthetic process (GO:1900060)	5	2	.02	+	83.15	2.27E-04	4.59E-02
+fatty acid beta-oxidation using acyl-CoA dehydrogenase (GO:0033539)	11	3	.05	+	56.69	1.73E-05	6.56E-03
+glycine metabolic process (GO:0006544)	13	3	.06	+	47.97	2.98E-05	1.05E-02
+urea metabolic process (GO:0019627)	13	3	.06	+	47.97	2.98E-05	1.02E-02
+nitrogen cycle metabolic process (GO:0071941)	15	3	.07	+	41.58	4.71E-05	1.36E-02
+steroid catabolic process (GO:0006706)	26	4	.13	+	31.98	6.94E-06	3.31E-03
+serine family amino acid metabolic process (GO:0009069)	31	4	.15	+	26.82	1.43E-05	5.57E-03
+retinol metabolic process (GO:0042572)	52	5	.25	+	19.99	5.05E-06	2.57E-03
+terpenoid metabolic process (GO:0006721)	107	9	.51	+	17.49	2.31E-09	5.69E-06
+alpha-amino acid biosynthetic process (GO:1901607)	60	5	.29	+	17.32	1.03E-05	4.47E-03
+diterpenoid metabolic process (GO:0016101)	92	7	.44	+	15.82	3.02E-07	2.12E-04
+isoprenoid metabolic process (GO:0006720)	121	9	.58	+	15.46	6.90E-09	1.13E-05
+complement activation (GO:0006956)	55	4	.26	+	15.12	1.42E-04	3.18E-02
+amino acid biosynthetic process (GO:0008652)	69	5	.33	+	15.06	2.05E-05	7.56E-03
+retinoid metabolic process (GO:0001523)	88	6	.42	+	14.17	4.19E-06	2.21E-03
+primary alcohol metabolic process (GO:0034308)	94	6	.45	+	13.27	6.15E-06	3.03E-03
+proteinogenic amino acid catabolic process (GO:0170040)	81	5	.39	+	12.83	4.46E-05	1.32E-02
+proteinogenic amino acid metabolic process (GO:0170039)	171	10	.82	+	12.16	9.93E-09	1.46E-05
+alpha-amino acid metabolic process (GO:1901605)	202	11	.97	+	11.32	3.68E-09	7.76E-06
+alpha-amino acid catabolic process (GO:1901606)	95	5	.46	+	10.94	9.57E-05	2.62E-02
+steroid biosynthetic process (GO:0006694)	96	5	.46	+	10.83	1.01E-04	2.65E-02
+cholesterol metabolic process (GO:0008203)	119	6	.57	+	10.48	2.38E-05	8.57E-03
+sulfur compound biosynthetic process (GO:0044272)	108	5	.52	+	9.62	1.75E-04	3.75E-02
+amino acid catabolic process (GO:0009063)	108	5	.52	+	9.62	1.75E-04	3.70E-02
+L-amino acid metabolic process (GO:0170033)	173	8	.83	+	9.61	1.89E-06	1.08E-03
+secondary alcohol metabolic process (GO:1902652)	130	6	.63	+	9.59	3.92E-05	1.21E-02
+sterol metabolic process (GO:0016125)	130	6	.63	+	9.59	3.92E-05	1.18E-02
+olefinic compound metabolic process (GO:0120254)	158	7	.76	+	9.21	1.13E-05	4.78E-03
+monocarboxylic acid catabolic process (GO:0072329)	115	5	.55	+	9.04	2.35E-04	4.69E-02
+amide biosynthetic process (GO:0043604)	161	7	.77	+	9.04	1.28E-05	5.11E-03
+steroid metabolic process (GO:0008202)	258	11	1.24	+	8.86	4.63E-08	4.88E-05
+amino acid metabolic process (GO:0006520)	280	11	1.35	+	8.17	1.06E-07	1.04E-04
+alcohol metabolic process (GO:0006066)	310	12	1.49	+	8.05	3.17E-08	3.60E-05
+organic acid catabolic process (GO:0016054)	233	9	1.12	+	8.03	1.87E-06	1.15E-03
+carboxylic acid catabolic process (GO:0046395)	233	9	1.12	+	8.03	1.87E-06	1.11E-03
+carboxylic acid biosynthetic process (GO:0046394)	288	11	1.39	+	7.94	1.41E-07	1.30E-04
+organic acid biosynthetic process (GO:0016053)	292	11	1.40	+	7.83	1.62E-07	1.26E-04
+hormone metabolic process (GO:0042445)	213	8	1.02	+	7.81	8.82E-06	3.94E-03
+lipid catabolic process (GO:0016042)	307	10	1.48	+	6.77	2.28E-06	1.24E-03
+response to toxic substance (GO:0009636)	255	8	1.23	+	6.52	3.23E-05	1.06E-02
+small molecule biosynthetic process (GO:0044283)	489	15	2.35	+	6.38	1.21E-08	1.63E-05
+monocarboxylic acid metabolic process (GO:0032787)	526	16	2.53	+	6.32	4.23E-09	7.81E-06
+cellular respiration (GO:0045333)	231	7	1.11	+	6.30	1.27E-04	3.03E-02
+amide metabolic process (GO:0043603)	431	13	2.07	+	6.27	1.50E-07	1.31E-04
+carboxylic acid metabolic process (GO:0019752)	802	24	3.86	+	6.22	4.08E-13	2.01E-09
+purine-containing compound biosynthetic process (GO:0072522)	239	7	1.15	+	6.09	1.57E-04	3.40E-02
+oxoacid metabolic process (GO:0043436)	824	24	3.96	+	6.05	7.28E-13	2.68E-09
+organic acid metabolic process (GO:0006082)	833	24	4.01	+	5.99	9.17E-13	2.71E-09
+small molecule catabolic process (GO:0044282)	357	10	1.72	+	5.82	8.62E-06	3.98E-03
+lipid metabolic process (GO:0006629)	1217	34	5.85	+	5.81	1.03E-17	1.52E-13
+fatty acid metabolic process (GO:0006631)	331	9	1.59	+	5.65	3.14E-05	1.05E-02
+nucleoside phosphate biosynthetic process (GO:1901293)	299	8	1.44	+	5.56	9.86E-05	2.64E-02
+energy derivation by oxidation of organic compounds (GO:0015980)	310	8	1.49	+	5.36	1.26E-04	3.06E-02
+lipid biosynthetic process (GO:0008610)	596	15	2.87	+	5.23	1.62E-07	1.33E-04
+organophosphate biosynthetic process (GO:0090407)	572	14	2.75	+	5.09	6.08E-07	4.08E-04
+generation of precursor metabolites and energy (GO:0006091)	374	9	1.80	+	5.00	8.06E-05	2.24E-02
+small molecule metabolic process (GO:0044281)	1567	34	7.54	+	4.51	1.96E-14	1.44E-10
+nucleobase-containing small molecule metabolic process (GO:0055086)	612	12	2.94	+	4.08	3.76E-05	1.18E-02
+nucleoside phosphate metabolic process (GO:0006753)	588	11	2.83	+	3.89	1.22E-04	3.06E-02
+organophosphate metabolic process (GO:0019637)	988	18	4.75	+	3.79	9.95E-07	6.38E-04
+phosphate-containing compound metabolic process (GO:0006796)	1412	18	6.79	+	2.65	1.24E-04	3.05E-02
+phosphorus metabolic process (GO:0006793)	1415	18	6.81	+	2.64	1.27E-04	2.99E-02
+catabolic process (GO:0009056)	2077	25	9.99	+	2.50	1.20E-05	4.90E-03
+biosynthetic process (GO:0009058)	4024	37	19.36	+	1.91	3.43E-05	1.10E-02
+primary metabolic process (GO:0044238)	6776	58	32.60	+	1.78	2.37E-07	1.75E-04
+metabolic process (GO:0008152)	7644	65	36.77	+	1.77	1.27E-08	1.56E-05
+cellular process (GO:0009987)	15556	90	74.83	+	1.20	1.44E-04	3.18E-02
+biological_process (GO:0008150)	17753	97	85.40	+	1.14	1.03E-04	2.66E-02
+Unclassified (UNCLASSIFIED)	2827	2	13.60	-	.15	1.03E-04	2.61E-02

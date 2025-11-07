@@ -1,0 +1,109 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Homo sapiens - REFLIST (20580)	upload_1 (434)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+multimerin complex (GO:1990972)	2	2	.04	+	47.42	4.44E-04	1.05E-02
+keratohyalin granule (GO:0036457)	4	3	.08	+	35.56	3.67E-05	1.07E-03
+proteasome activator complex (GO:0008537)	3	2	.06	+	31.61	1.31E-03	2.79E-02
+spherical high-density lipoprotein particle (GO:0034366)	8	5	.17	+	29.64	2.17E-07	8.57E-06
+chylomicron (GO:0042627)	13	8	.27	+	29.18	4.31E-11	3.48E-09
+intermediate-density lipoprotein particle (GO:0034363)	5	3	.11	+	28.45	9.02E-05	2.46E-03
+prefoldin complex (GO:0016272)	7	4	.15	+	27.10	6.49E-06	2.26E-04
+hemoglobin complex (GO:0005833)	11	6	.23	+	25.87	3.59E-08	1.61E-06
+haptoglobin-hemoglobin complex (GO:0031838)	10	5	.21	+	23.71	9.41E-07	3.58E-05
+high-density lipoprotein particle (GO:0034364)	27	12	.57	+	21.08	8.69E-14	1.95E-11
+triglyceride-rich plasma lipoprotein particle (GO:0034385)	21	9	.44	+	20.32	1.78E-10	1.33E-08
+very-low-density lipoprotein particle (GO:0034361)	21	9	.44	+	20.32	1.78E-10	1.29E-08
+lipoprotein particle (GO:1990777)	37	13	.78	+	16.66	3.07E-13	5.16E-11
+plasma lipoprotein particle (GO:0034358)	37	13	.78	+	16.66	3.07E-13	4.77E-11
+low-density lipoprotein particle (GO:0034362)	15	5	.32	+	15.81	1.03E-05	3.46E-04
+protein-lipid complex (GO:0032994)	40	13	.84	+	15.41	9.79E-13	1.16E-10
+tetraspanin-enriched microdomain (GO:0097197)	10	3	.21	+	14.23	1.00E-03	2.24E-02
+cornified envelope (GO:0001533)	60	15	1.27	+	11.85	1.28E-12	1.43E-10
+azurophil granule membrane (GO:0035577)	58	11	1.22	+	8.99	3.02E-08	1.38E-06
+endocytic vesicle lumen (GO:0071682)	22	4	.46	+	8.62	1.06E-03	2.32E-02
+lysosomal lumen (GO:0043202)	100	15	2.11	+	7.11	2.81E-09	1.49E-07
+keratin filament (GO:0045095)	119	17	2.51	+	6.77	5.37E-10	3.39E-08
+azurophil granule (GO:0042582)	154	19	3.25	+	5.85	6.72E-10	3.99E-08
+primary lysosome (GO:0005766)	154	19	3.25	+	5.85	6.72E-10	3.87E-08
+vacuolar lumen (GO:0005775)	179	21	3.77	+	5.56	2.18E-10	1.52E-08
+platelet alpha granule (GO:0031091)	91	10	1.92	+	5.21	2.20E-05	7.04E-04
+platelet alpha granule lumen (GO:0031093)	67	7	1.41	+	4.95	5.17E-04	1.20E-02
+blood microparticle (GO:0072562)	144	15	3.04	+	4.94	4.07E-07	1.58E-05
+specific granule membrane (GO:0035579)	91	9	1.92	+	4.69	1.29E-04	3.43E-03
+ficolin-1-rich granule membrane (GO:0101003)	61	6	1.29	+	4.66	1.77E-03	3.69E-02
+melanosome (GO:0042470)	112	11	2.36	+	4.66	2.51E-05	7.91E-04
+pigment granule (GO:0048770)	112	11	2.36	+	4.66	2.51E-05	7.79E-04
+secretory granule membrane (GO:0030667)	325	30	6.85	+	4.38	1.41E-11	1.29E-09
+tertiary granule (GO:0070820)	164	15	3.46	+	4.34	2.15E-06	7.60E-05
+intermediate filament (GO:0005882)	221	20	4.66	+	4.29	5.24E-08	2.25E-06
+azurophil granule lumen (GO:0035578)	90	8	1.90	+	4.22	6.28E-04	1.44E-02
+intermediate filament cytoskeleton (GO:0045111)	254	21	5.36	+	3.92	1.15E-07	4.83E-06
+microvillus (GO:0005902)	97	8	2.05	+	3.91	1.03E-03	2.29E-02
+specific granule (GO:0042581)	160	13	3.37	+	3.85	3.62E-05	1.07E-03
+ficolin-1-rich granule (GO:0101002)	186	14	3.92	+	3.57	4.27E-05	1.23E-03
+external side of plasma membrane (GO:0009897)	392	29	8.27	+	3.51	5.54E-09	2.87E-07
+cell surface (GO:0009986)	924	65	19.49	+	3.34	9.34E-18	2.36E-15
+lytic vacuole (GO:0000323)	797	52	16.81	+	3.09	4.72E-13	6.80E-11
+lysosome (GO:0005764)	797	52	16.81	+	3.09	4.72E-13	6.35E-11
+endoplasmic reticulum lumen (GO:0005788)	326	21	6.87	+	3.05	6.54E-06	2.24E-04
+lytic vacuole membrane (GO:0098852)	463	29	9.76	+	2.97	2.07E-07	8.51E-06
+lysosomal membrane (GO:0005765)	463	29	9.76	+	2.97	2.07E-07	8.34E-06
+extracellular vesicle (GO:1903561)	2131	133	44.94	+	2.96	5.20E-32	1.05E-28
+extracellular organelle (GO:0043230)	2132	133	44.96	+	2.96	5.46E-32	5.50E-29
+extracellular membrane-bounded organelle (GO:0065010)	2132	133	44.96	+	2.96	5.46E-32	3.67E-29
+extracellular exosome (GO:0070062)	2102	131	44.33	+	2.96	2.09E-31	8.42E-29
+secretory granule (GO:0030141)	942	58	19.87	+	2.92	2.16E-13	3.95E-11
+secretory granule lumen (GO:0034774)	326	20	6.87	+	2.91	2.20E-05	7.15E-04
+cytoplasmic vesicle lumen (GO:0060205)	331	20	6.98	+	2.87	2.73E-05	8.34E-04
+vesicle lumen (GO:0031983)	332	20	7.00	+	2.86	2.85E-05	8.58E-04
+side of membrane (GO:0098552)	739	44	15.58	+	2.82	6.27E-10	3.83E-08
+vacuole (GO:0005773)	892	52	18.81	+	2.76	3.26E-11	2.74E-09
+external encapsulating structure (GO:0030312)	501	29	10.57	+	2.74	1.04E-06	3.90E-05
+membrane microdomain (GO:0098857)	294	17	6.20	+	2.74	1.83E-04	4.74E-03
+extracellular matrix (GO:0031012)	485	28	10.23	+	2.74	1.69E-06	6.10E-05
+secretory vesicle (GO:0099503)	1133	65	23.89	+	2.72	1.67E-13	3.37E-11
+vacuolar membrane (GO:0005774)	508	29	10.71	+	2.71	1.38E-06	5.06E-05
+actin-based cell projection (GO:0098858)	231	13	4.87	+	2.67	1.31E-03	2.81E-02
+endocytic vesicle (GO:0030139)	360	20	7.59	+	2.63	8.78E-05	2.43E-03
+membrane raft (GO:0045121)	292	16	6.16	+	2.60	5.09E-04	1.19E-02
+focal adhesion (GO:0005925)	423	22	8.92	+	2.47	1.04E-04	2.79E-03
+extracellular space (GO:0005615)	3225	165	68.01	+	2.43	3.02E-30	1.02E-27
+cell-substrate junction (GO:0030055)	433	22	9.13	+	2.41	2.34E-04	5.90E-03
+vesicle (GO:0031982)	4083	193	86.10	+	2.24	8.10E-32	4.09E-29
+early endosome (GO:0005769)	450	21	9.49	+	2.21	6.89E-04	1.56E-02
+cytoplasmic vesicle membrane (GO:0030659)	1273	59	26.85	+	2.20	1.32E-08	6.49E-07
+vesicle membrane (GO:0012506)	1294	59	27.29	+	2.16	2.02E-08	9.68E-07
+extracellular region (GO:0005576)	4287	193	90.41	+	2.13	4.56E-29	1.32E-26
+endosome membrane (GO:0010008)	595	25	12.55	+	1.99	1.17E-03	2.55E-02
+cytoplasmic vesicle (GO:0031410)	2614	108	55.13	+	1.96	2.98E-12	3.17E-10
+intracellular vesicle (GO:0097708)	2622	108	55.29	+	1.95	3.37E-12	3.40E-10
+endosome (GO:0005768)	1107	44	23.34	+	1.88	5.52E-05	1.57E-03
+anchoring junction (GO:0070161)	918	36	19.36	+	1.86	3.58E-04	8.82E-03
+bounding membrane of organelle (GO:0098588)	2283	87	48.14	+	1.81	4.25E-08	1.86E-06
+Golgi apparatus (GO:0005794)	1693	57	35.70	+	1.60	3.92E-04	9.53E-03
+cell periphery (GO:0071944)	6541	209	137.94	+	1.52	8.19E-13	1.03E-10
+endomembrane system (GO:0012505)	4956	158	104.51	+	1.51	7.63E-09	3.85E-07
+plasma membrane (GO:0005886)	6087	192	128.37	+	1.50	6.35E-11	4.93E-09
+endoplasmic reticulum (GO:0005783)	2120	66	44.71	+	1.48	1.33E-03	2.80E-02
+organelle membrane (GO:0031090)	3879	113	81.80	+	1.38	1.90E-04	4.85E-03
+membrane (GO:0016020)	9837	265	207.45	+	1.28	2.60E-08	1.22E-06
+cytoplasm (GO:0005737)	12419	324	261.90	+	1.24	3.09E-10	2.08E-08
+membrane-bounded organelle (GO:0043227)	13453	349	283.70	+	1.23	3.86E-12	3.71E-10
+organelle (GO:0043226)	14290	362	301.35	+	1.20	2.14E-11	1.88E-09
+intracellular membrane-bounded organelle (GO:0043231)	12348	296	260.40	+	1.14	4.26E-04	1.02E-02
+intracellular organelle (GO:0043229)	13467	322	284.00	+	1.13	8.27E-05	2.32E-03
+intracellular anatomical structure (GO:0005622)	15126	353	318.98	+	1.11	1.42E-04	3.72E-03
+cellular anatomical structure (GO:0110165)	18867	428	397.88	+	1.08	3.39E-10	2.20E-08
+cellular_component (GO:0005575)	18952	428	399.67	+	1.07	1.53E-09	8.55E-08
+chromosome (GO:0005694)	2006	18	42.30	-	.43	1.77E-05	5.87E-04
+chromatin (GO:0000785)	1399	12	29.50	-	.41	3.17E-04	7.91E-03
+Unclassified (UNCLASSIFIED)	1628	6	34.33	-	.17	1.53E-09	8.32E-08

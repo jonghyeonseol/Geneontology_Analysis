@@ -1,0 +1,26 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Homo sapiens - REFLIST (20580)	upload_1 (99)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+mitochondrial matrix (GO:0005759)	541	10	2.60	+	3.84	2.78E-04	4.32E-02
+mitochondrial membrane (GO:0031966)	792	14	3.81	+	3.67	2.55E-05	5.14E-03
+mitochondrial envelope (GO:0005740)	837	14	4.03	+	3.48	4.66E-05	8.54E-03
+endoplasmic reticulum membrane (GO:0005789)	1260	21	6.06	+	3.46	4.63E-07	2.34E-04
+organelle envelope (GO:0031967)	1320	22	6.35	+	3.46	2.33E-07	1.57E-04
+endoplasmic reticulum subcompartment (GO:0098827)	1266	21	6.09	+	3.45	5.00E-07	2.02E-04
+nuclear outer membrane-endoplasmic reticulum membrane network (GO:0042175)	1285	21	6.18	+	3.40	6.38E-07	2.15E-04
+organelle subcompartment (GO:0031984)	1592	23	7.66	+	3.00	1.44E-06	4.14E-04
+endoplasmic reticulum (GO:0005783)	2120	30	10.20	+	2.94	3.34E-08	6.75E-05
+mitochondrion (GO:0005739)	1839	22	8.85	+	2.49	4.99E-05	8.39E-03
+organelle membrane (GO:0031090)	3879	42	18.66	+	2.25	7.71E-08	7.78E-05
+endomembrane system (GO:0012505)	4956	40	23.84	+	1.68	3.42E-04	4.92E-02
+membrane (GO:0016020)	9837	70	47.32	+	1.48	4.28E-06	9.59E-04
+cytoplasm (GO:0005737)	12419	82	59.74	+	1.37	2.32E-06	5.85E-04

@@ -1,0 +1,30 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	Homo sapiens - REFLIST (20580)	upload_1 (29)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+haptoglobin binding (GO:0031720)	2	2	.00	+	 > 100	1.92E-06	2.45E-03
+Toll-like receptor 4 binding (GO:0035662)	4	2	.01	+	 > 100	1.15E-05	7.35E-03
+hemoglobin alpha binding (GO:0031721)	5	2	.01	+	 > 100	1.91E-05	1.09E-02
+arachidonate binding (GO:0050544)	7	2	.01	+	 > 100	4.01E-05	2.05E-02
+icosatetraenoic acid binding (GO:0050543)	8	2	.01	+	 > 100	5.34E-05	2.48E-02
+icosanoid binding (GO:0050542)	8	2	.01	+	 > 100	5.34E-05	2.28E-02
+RAGE receptor binding (GO:0050786)	12	3	.02	+	 > 100	5.49E-07	1.40E-03
+oxygen carrier activity (GO:0005344)	13	3	.02	+	 > 100	7.13E-07	1.22E-03
+hemoglobin binding (GO:0030492)	9	2	.01	+	 > 100	6.86E-05	2.70E-02
+platelet-derived growth factor binding (GO:0048407)	11	2	.02	+	 > 100	1.05E-04	3.35E-02
+Toll-like receptor binding (GO:0035325)	13	2	.02	+	 > 100	1.48E-04	4.46E-02
+oxygen binding (GO:0019825)	31	3	.04	+	68.68	1.10E-05	8.05E-03
+calcium-dependent protein binding (GO:0048306)	82	4	.12	+	34.62	5.15E-06	4.40E-03
+structural constituent of chromatin (GO:0030527)	65	3	.09	+	32.75	1.04E-04	3.53E-02
+antioxidant activity (GO:0016209)	76	3	.11	+	28.01	1.65E-04	4.69E-02
+structural molecule activity (GO:0005198)	812	10	1.14	+	8.74	8.76E-08	4.48E-04
+signaling receptor binding (GO:0005102)	1543	11	2.17	+	5.06	3.97E-06	4.06E-03
+protein binding (GO:0005515)	14817	29	20.88	+	1.39	1.01E-04	3.69E-02
