@@ -102,8 +102,9 @@ create_barplot <- function(data, title) {
   }
 
   # Prepare data for plotting
+  # When Count is the same, sort by p-value in descending order
   plot_data <- data %>%
-    arrange(Count) %>%
+    arrange(Count, desc(P.value)) %>%
     mutate(GO_Term = factor(GO_Term, levels = GO_Term))
 
   p <- ggplot(plot_data, aes(x = Count, y = GO_Term, fill = neg_log10_pvalue)) +
