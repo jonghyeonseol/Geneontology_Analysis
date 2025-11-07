@@ -129,8 +129,9 @@ create_dotplot <- function(data, title) {
   }
 
   # Prepare data for plotting (highest Gene Ratio at top - descending order)
+  # When Gene_Ratio is the same, sort by p-value in descending order
   plot_data <- data %>%
-    arrange(Gene_Ratio) %>%
+    arrange(Gene_Ratio, desc(P.value)) %>%
     mutate(GO_Term = factor(GO_Term, levels = GO_Term))
 
   p <- ggplot(plot_data, aes(x = Gene_Ratio, y = GO_Term)) +
