@@ -143,7 +143,7 @@ create_dotplot <- function(data, title) {
          x = "Gene Ratio",
          y = "GO Term") +
     theme_minimal() +
-    theme(axis.text.y = element_text(size = 10),
+    theme(axis.text.y = element_text(size = 15),
           axis.text.x = element_text(size = 10),
           axis.title = element_text(size = 12, face = "bold"),
           plot.title = element_text(size = 14, face = "bold", hjust = 0.5),
