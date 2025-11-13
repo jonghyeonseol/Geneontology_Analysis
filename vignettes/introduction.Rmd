@@ -1,0 +1,270 @@
+---
+title: "Introduction to GeneOntologyViz"
+author: "jonghyeonseol"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to GeneOntologyViz}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.width = 10,
+  fig.height = 8
+)
+```
+
+## Overview
+
+**GeneOntologyViz** is a comprehensive R package for visualizing PANTHER GO enrichment analysis results. It provides multiple visualization types including bar plots, dot plots, heatmaps, and network graphs to help you explore and communicate your Gene Ontology enrichment findings.
+
+## Installation
+
+```{r eval=FALSE}
+# Install from GitHub
+# devtools::install_github("jonghyeonseol/Geneontology_Analysis")
+
+# Or install locally
+# devtools::install("path/to/GeneOntologyViz")
+```
+
+## Quick Start
+
+### Load the Package
+
+```{r eval=FALSE}
+library(GeneOntologyViz)
+```
+
+### Run Complete Pipeline
+
+The simplest way to use GeneOntologyViz is to run the complete pipeline:
+
+```{r eval=FALSE}
+# Process all files in Input directory
+run_go_pipeline()
+
+# Custom settings
+run_go_pipeline(
+  input_dir = "my_data",
+  output_dir = "my_results",
+  create_heatmap_plots = TRUE,
+  create_network_plots = TRUE
+)
+```
+
+## Individual Visualizations
+
+### Reading Data
+
+First, read your PANTHER GO enrichment file:
+
+```{r eval=FALSE}
+data <- read_go_results("Input/Dataset1_GOBP_Up.txt")
+head(data)
+```
+
+### Bar Plot
+
+Create a bar plot showing gene count per GO term:
+
+```{r eval=FALSE}
+barplot <- create_barplot(data, "GO Enrichment - GOBP Up-regulated")
+print(barplot)
+
+# Save plot
+ggsave("barplot.png", barplot, width = 12, height = 8, dpi = 300)
+```
+
+### Dot Plot
+
+Create a dot plot showing gene ratio:
+
+```{r eval=FALSE}
+dotplot <- create_dotplot(data, "GO Enrichment - GOBP Up-regulated")
+print(dotplot)
+```
+
+### Heatmap
+
+Compare multiple datasets with a heatmap:
+
+```{r eval=FALSE}
+# Read multiple datasets
+data1 <- read_go_results("Input/Dataset1_GOBP_Up.txt")
+data2 <- read_go_results("Input/Dataset2_GOBP_Up.txt")
+
+# Create named list
+data_list <- list("Dataset1" = data1, "Dataset2" = data2)
+
+# Generate heatmap
+heatmap <- create_heatmap(
+  data_list,
+  value_type = "pvalue",  # or "fold_enrichment", "count"
+  cluster_rows = TRUE,
+  cluster_cols = TRUE,
+  title = "GO Enrichment Comparison"
+)
+print(heatmap)
+```
+
+### Network Graph
+
+Visualize relationships between GO terms:
+
+```{r eval=FALSE}
+network <- create_network(
+  data,
+  similarity_threshold = 0.3,
+  layout = "fr",  # or "circle", "star", "kk"
+  node_size_by = "count",
+  title = "GO Term Network"
+)
+print(network)
+```
+
+## Configuration
+
+### Viewing Current Configuration
+
+```{r eval=FALSE}
+# Print all configuration settings
+print_config()
+
+# Get specific value
+get_config("fold_enrichment_threshold")
+```
+
+### Customizing Settings
+
+```{r eval=FALSE}
+# Change fold enrichment threshold
+set_config("fold_enrichment_threshold", 15)
+
+# Change number of top terms to display
+set_config("top_n_terms", 30)
+
+# Change plot colors
+set_config("color_low", "green")
+set_config("color_high", "purple")
+
+# Change output format
+set_config("output_format", "pdf")
+set_config("output_dpi", 600)
+```
+
+## Input File Format
+
+GeneOntologyViz expects PANTHER Overrepresentation Test output files with the following structure:
+
+- Line 6: Analysis Type
+- Line 7: Annotation Version
+- Line 8: Analyzed List with gene count
+- Line 9: Reference List
+- Line 10: Test Type (FISHER)
+- Line 11: Correction (FDR)
+- Line 12: Header row
+- Line 13+: Data rows
+
+File naming convention: `Dataset{N}_{GOCAT}_{Direction}.txt`
+
+Where:
+- N: Dataset number (1, 2, etc.)
+- GOCAT: GO Category (GOBP, GOCC, GOMF)
+- Direction: Regulation (Up or Down)
+
+## Advanced Usage
+
+### Custom Pipeline
+
+```{r eval=FALSE}
+# Custom processing
+input_files <- list.files("Input", pattern = "\\.txt$", full.names = TRUE)
+
+results <- list()
+for (file in input_files) {
+  data <- read_go_results(file)
+
+  if (!is.null(data)) {
+    # Create custom visualizations
+    plot1 <- create_barplot(data, basename(file))
+    plot2 <- create_dotplot(data, basename(file))
+
+    # Store results
+    results[[basename(file)]] <- data
+  }
+}
+
+# Create comparison heatmap
+heatmap <- create_heatmap(results, value_type = "fold_enrichment")
+```
+
+### Filtering and Subsetting
+
+```{r eval=FALSE}
+# Read data
+data <- read_go_results("Input/Dataset1_GOBP_Up.txt")
+
+# Filter by p-value
+significant_terms <- data[data$P.value < 0.01, ]
+
+# Select top 10 by fold enrichment
+top_enriched <- data[order(-data$Fold_Enrichment), ][1:10, ]
+
+# Create visualization
+plot <- create_barplot(top_enriched, "Top 10 Enriched Terms")
+```
+
+## Tips and Best Practices
+
+1. **File Organization**: Keep input files in a dedicated directory
+2. **Naming Convention**: Follow the recommended naming pattern for automatic grouping
+3. **Quality Control**: Check input files for proper format before processing
+4. **Visualization Selection**:
+   - Use bar plots for absolute gene counts
+   - Use dot plots for proportional comparisons
+   - Use heatmaps for multi-dataset comparisons
+   - Use network graphs for exploring term relationships
+5. **Parameter Tuning**:
+   - Adjust `fold_enrichment_threshold` based on your data
+   - Modify `top_n_terms` to show more or fewer terms
+   - Change `similarity_threshold` for network density
+
+## Troubleshooting
+
+### No significant results found
+
+- Check fold enrichment threshold (default: ≥10)
+- Verify input file format
+- Ensure file has enough data lines
+
+### Network plot too dense
+
+- Increase `similarity_threshold` (default: 0.3)
+- Reduce `top_n_terms` to show fewer nodes
+
+### Heatmap not generated
+
+- Ensure at least 2 datasets are provided
+- Check that datasets have common GO categories
+
+## Getting Help
+
+For more information:
+- GitHub Issues: https://github.com/jonghyeonseol/Geneontology_Analysis/issues
+- Package Documentation: `?GeneOntologyViz`
+- Function Help: `?run_go_pipeline`, `?create_barplot`, etc.
+
+## Citation
+
+If you use GeneOntologyViz in your research, please cite:
+
+```
+GeneOntologyViz: Gene Ontology Enrichment Analysis Visualization
+jonghyeonseol (2025)
+https://github.com/jonghyeonseol/Geneontology_Analysis
+```
