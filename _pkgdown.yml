@@ -1,0 +1,65 @@
+url: https://jonghyeonseol.github.io/Geneontology_Analysis/
+
+template:
+  bootstrap: 5
+  bootswatch: cosmo
+
+navbar:
+  title: "GeneOntologyViz"
+  left:
+    - icon: fa-home
+      href: index.html
+    - text: "Reference"
+      href: reference/index.html
+    - text: "Articles"
+      menu:
+        - text: "Introduction"
+          href: articles/introduction.html
+    - text: "News"
+      href: news/index.html
+  right:
+    - icon: fab fa-github
+      href: https://github.com/jonghyeonseol/Geneontology_Analysis
+
+reference:
+  - title: "Main Pipeline"
+    desc: "Primary function to run complete GO enrichment visualization pipeline"
+    contents:
+      - run_go_pipeline
+  - title: "Data Processing"
+    desc: "Functions for reading and processing GO enrichment data"
+    contents:
+      - read_go_results
+  - title: "Basic Visualizations"
+    desc: "Standard visualization functions"
+    contents:
+      - create_barplot
+      - create_dotplot
+  - title: "Advanced Visualizations"
+    desc: "Advanced visualization functions for comparative analysis"
+    contents:
+      - create_heatmap
+      - create_network
+  - title: "Configuration"
+    desc: "Configuration management functions"
+    contents:
+      - get_config
+      - set_config
+      - print_config
+      - validate_config
+  - title: "Utilities"
+    desc: "Utility and helper functions"
+    contents:
+      - log_info
+      - log_warn
+      - log_error
+      - validate_input_file
+      - check_dependencies
+      - create_output_directories
+      - sanitize_file_path
+      - print_session_info
+
+articles:
+  - title: "Getting Started"
+    contents:
+      - introduction

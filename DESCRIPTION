@@ -1,0 +1,32 @@
+Package: GeneOntologyViz
+Type: Package
+Title: Gene Ontology Enrichment Analysis Visualization
+Version: 1.0.0
+Date: 2025-11-13
+Authors@R: person("jonghyeonseol", email = "your.email@example.com", role = c("aut", "cre"))
+Description: A comprehensive bioinformatics tool for visualizing PANTHER GO
+    enrichment analysis results. Generates publication-quality bar plots, dot plots,
+    heatmaps, and network graphs showing gene ontology term enrichment with
+    statistical significance. Supports multiple visualization types for comparing
+    enrichment across datasets and exploring GO term relationships.
+License: MIT + file LICENSE
+URL: https://github.com/jonghyeonseol/Geneontology_Analysis
+BugReports: https://github.com/jonghyeonseol/Geneontology_Analysis/issues
+Depends:
+    R (>= 4.0.0)
+Imports:
+    ggplot2 (>= 3.3.0),
+    dplyr (>= 1.0.0),
+    stringr (>= 1.4.0),
+    tidyr (>= 1.1.0)
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    covr,
+    pkgdown
+VignetteBuilder: knitr
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
