@@ -2,12 +2,20 @@
 # Author: jonghyeonseol
 # Date: 2025-11-13
 
-#' Global Configuration Settings
+#' Package Configuration Environment
 #'
-#' This list contains all configurable parameters for GO enrichment analysis
-#' and visualization. Modify these values to customize the analysis pipeline.
+#' This environment contains all configurable parameters for GO enrichment analysis
+#' and visualization. Using an environment instead of a list prevents namespace pollution.
+#' @keywords internal
+.config_env <- new.env(parent = emptyenv())
 
-CONFIG <- list(
+#' Default Configuration Settings
+#'
+#' Returns the default configuration list
+#' @return List of default configuration values
+#' @keywords internal
+.default_config <- function() {
+  list(
   # ===== Data Processing Parameters =====
 
   # Fold enrichment threshold for filtering GO terms
@@ -100,54 +108,77 @@ CONFIG <- list(
   # Secondary sort (when primary values are equal)
   secondary_sort_by = "pvalue",
   secondary_sort_order = "desc"  # "asc" or "desc"
-)
+  )
+}
 
-#' Helper function to get configuration value
+# Initialize configuration on package load
+.config_env$config <- .default_config()
+
+#' Get Configuration Value
 #'
 #' @param key The configuration key to retrieve
 #' @param default Default value if key is not found
 #' @return The configuration value
 #' @export
+#' @examples
+#' \dontrun{
+#' get_config("fold_enrichment_threshold")
+#' get_config("nonexistent_key", default = 10)
+#' }
 get_config <- function(key, default = NULL) {
-  if (key %in% names(CONFIG)) {
-    return(CONFIG[[key]])
+  config <- .config_env$config
+  if (key %in% names(config)) {
+    return(config[[key]])
   } else {
     return(default)
   }
 }
 
-#' Helper function to set configuration value
+#' Set Configuration Value
 #'
 #' @param key The configuration key to set
 #' @param value The value to set
 #' @return Invisible NULL
 #' @export
+#' @examples
+#' \dontrun{
+#' set_config("fold_enrichment_threshold", 15)
+#' set_config("top_n_terms", 30)
+#' }
 set_config <- function(key, value) {
-  CONFIG[[key]] <<- value
+  .config_env$config[[key]] <- value
   invisible(NULL)
 }
 
-#' Print current configuration
+#' Print Current Configuration
 #'
 #' @return Invisible NULL
 #' @export
+#' @examples
+#' \dontrun{
+#' print_config()
+#' }
 print_config <- function() {
+  config <- .config_env$config
   cat("===== Gene Ontology Analysis Configuration =====\n\n")
-  for (key in names(CONFIG)) {
-    cat(sprintf("%-30s: %s\n", key, CONFIG[[key]]))
+  for (key in names(config)) {
+    cat(sprintf("%-30s: %s\n", key, config[[key]]))
   }
   cat("\n")
   invisible(NULL)
 }
 
-# Load user-specific configuration if it exists
-if (file.exists("config_user.R")) {
-  source("config_user.R")
-  if (exists("USER_CONFIG")) {
-    # Merge user configuration with default configuration
-    for (key in names(USER_CONFIG)) {
-      CONFIG[[key]] <- USER_CONFIG[[key]]
-    }
-    cat("User configuration loaded from config_user.R\n")
-  }
+#' Reset Configuration to Defaults
+#'
+#' Resets all configuration values to their defaults
+#' @return Invisible NULL
+#' @export
+#' @examples
+#' \dontrun{
+#' set_config("fold_enrichment_threshold", 100)
+#' reset_config()  # Back to default 10
+#' }
+reset_config <- function() {
+  .config_env$config <- .default_config()
+  invisible(NULL)
 }
