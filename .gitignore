@@ -1,0 +1,25 @@
+# R specific files
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# macOS files
+.DS_Store
+
+# Output directories (optional - uncomment if you don't want to track outputs)
+# Output/
+# Output/Barplots/
+# Output/Dotplots/
+
+# Temporary files
+*.tmp
+*.log
+
+# R package build files
+*.tar.gz
+*.zip
+
+# IDE files
+.vscode/
+.idea/
