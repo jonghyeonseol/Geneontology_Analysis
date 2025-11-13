@@ -7,6 +7,7 @@
 #' @param node_size_by Node size based on: "count", "pvalue", or "fold_enrichment" (default: "count")
 #' @param edge_width_by Edge width based on: "similarity" (default: "similarity")
 #' @param title Plot title (default: "GO Term Network")
+#' @param max_terms Maximum number of terms to include (default: 100). Large networks can be slow.
 #' @return ggplot2 object or NULL if data is invalid
 #' @export
 #'
@@ -33,7 +34,8 @@ create_network <- function(data,
                            layout = "fr",
                            node_size_by = "count",
                            edge_width_by = "similarity",
-                           title = "GO Term Network") {
+                           title = "GO Term Network",
+                           max_terms = 100) {
 
   if (is.null(data) || nrow(data) == 0) {
     log_warn("No data available for network graph")
@@ -45,18 +47,32 @@ create_network <- function(data,
     return(NULL)
   }
 
+  # Limit number of terms for performance
+  if (nrow(data) > max_terms) {
+    log_warn(sprintf("Dataset has %d terms, limiting to top %d for performance. Increase max_terms if needed.",
+                     nrow(data), max_terms))
+    data <- data[1:max_terms, ]
+  }
+
   # Calculate similarity matrix based on term overlap
   # For simplicity, we'll use Jaccard similarity based on word overlap in GO term names
   n_terms <- nrow(data)
-  similarity_matrix <- matrix(0, nrow = n_terms, ncol = n_terms)
-  rownames(similarity_matrix) <- data$GO_Term
-  colnames(similarity_matrix) <- data$GO_Term
 
-  # Calculate word-based similarity
+  # Pre-compute word lists for all terms (optimization)
+  log_info(sprintf("Computing similarities for %d terms...", n_terms))
+  word_lists <- lapply(data$GO_Term, function(term) {
+    tolower(strsplit(term, " ")[[1]])
+  })
+
+  # Build edge list directly (more efficient than building full matrix)
+  edge_list <- list()
+  edge_count <- 0
+
   for (i in 1:(n_terms - 1)) {
-    words_i <- tolower(strsplit(data$GO_Term[i], " ")[[1]])
+    words_i <- word_lists[[i]]
+
     for (j in (i + 1):n_terms) {
-      words_j <- tolower(strsplit(data$GO_Term[j], " ")[[1]])
+      words_j <- word_lists[[j]]
 
       # Jaccard similarity
       intersection <- length(intersect(words_i, words_j))
@@ -64,28 +80,32 @@ create_network <- function(data,
 
       if (union > 0) {
         similarity <- intersection / union
-        similarity_matrix[i, j] <- similarity
-        similarity_matrix[j, i] <- similarity
+
+        # Only store if above threshold (saves memory)
+        if (similarity >= similarity_threshold) {
+          edge_count <- edge_count + 1
+          edge_list[[edge_count]] <- data.frame(
+            from = i,
+            to = j,
+            similarity = similarity
+          )
+        }
       }
     }
   }
 
-  # Create edge list
-  edges <- data.frame()
-  for (i in 1:(n_terms - 1)) {
-    for (j in (i + 1):n_terms) {
-      if (similarity_matrix[i, j] >= similarity_threshold) {
-        edges <- rbind(edges, data.frame(
-          from = i,
-          to = j,
-          similarity = similarity_matrix[i, j]
-        ))
-      }
-    }
+  # Convert list to data frame (more efficient than rbind in loop)
+  if (edge_count == 0) {
+    edges <- data.frame()
+  } else {
+    edges <- do.call(rbind, edge_list)
   }
 
   if (nrow(edges) == 0) {
-    log_warn(sprintf("No edges found with similarity >= %.2f. Try lowering the threshold.", similarity_threshold))
+    msg <- sprintf("No edges found with similarity >= %.2f in %d GO terms. Try lowering the threshold with similarity_threshold parameter.",
+                   similarity_threshold, n_terms)
+    log_warn(msg)
+    warning(msg, call. = FALSE)
     return(NULL)
   }
 

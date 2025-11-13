@@ -80,7 +80,8 @@ run_go_pipeline <- function(input_dir = "Input",
   # Process each file
   processed_count <- 0
   skipped_count <- 0
-  results_list <- list()
+  # Only store results in memory if heatmaps are needed
+  results_list <- if (create_heatmap_plots) list() else NULL
 
   for (file in input_files) {
     file_name <- basename(file)
@@ -99,8 +100,10 @@ run_go_pipeline <- function(input_dir = "Input",
 
     log_info(sprintf("Found %d significant GO terms", nrow(go_data)))
 
-    # Store results for later heatmap generation
-    results_list[[file_base]] <- go_data
+    # Store results for later heatmap generation (only if needed)
+    if (create_heatmap_plots) {
+      results_list[[file_base]] <- go_data
+    }
 
     # Create barplot
     barplot <- create_barplot(go_data, paste("GO Enrichment -", file_base))
@@ -112,6 +115,7 @@ run_go_pipeline <- function(input_dir = "Input",
                       dpi = get_config("output_dpi", 300))
       log_info(sprintf("Barplot saved: %s", barplot_file))
     }
+    barplot <- NULL  # Free memory
 
     # Create dotplot
     dotplot <- create_dotplot(go_data, paste("GO Enrichment -", file_base))
@@ -123,6 +127,7 @@ run_go_pipeline <- function(input_dir = "Input",
                       dpi = get_config("output_dpi", 300))
       log_info(sprintf("Dotplot saved: %s", dotplot_file))
     }
+    dotplot <- NULL  # Free memory
 
     # Create network plot
     if (create_network_plots && nrow(go_data) >= 2) {
@@ -137,14 +142,25 @@ run_go_pipeline <- function(input_dir = "Input",
                         dpi = get_config("output_dpi", 300))
         log_info(sprintf("Network plot saved: %s", network_file))
       }
+      network_plot <- NULL  # Free memory
+    }
+
+    # If not storing for heatmap, free go_data too
+    if (!create_heatmap_plots) {
+      go_data <- NULL
     }
 
     processed_count <- processed_count + 1
     log_info("")
+
+    # Periodic garbage collection for large datasets
+    if (processed_count %% 10 == 0) {
+      gc(verbose = FALSE)
+    }
   }
 
   # Create heatmaps for grouped comparisons
-  if (create_heatmap_plots && length(results_list) >= 2) {
+  if (create_heatmap_plots && !is.null(results_list) && length(results_list) >= 2) {
     log_info("=================================")
     log_info("Creating heatmap comparisons...")
 

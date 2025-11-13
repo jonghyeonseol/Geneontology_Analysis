@@ -37,9 +37,12 @@ A comprehensive R package for visualizing PANTHER GO enrichment analysis results
 - pkgdown website
 
 🚀 **Production Ready**
-- Input validation and error handling
+- Comprehensive input validation and error handling
+- Enhanced error messages with actionable suggestions
 - Structured logging system
 - Automated pipeline function
+- Optimized performance for large datasets (100+ terms)
+- Efficient memory management for batch processing
 
 ## Installation
 
@@ -86,6 +89,9 @@ run_go_pipeline(
 # Read PANTHER GO enrichment file
 data <- read_go_results("Input/Dataset1_GOBP_Up.txt")
 head(data)
+
+# Strict mode - throws errors instead of warnings
+data <- read_go_results("Input/Dataset1_GOBP_Up.txt", strict = TRUE)
 ```
 
 ### Create Individual Visualizations
@@ -129,6 +135,13 @@ network <- create_network(
   node_size_by = "count"
 )
 print(network)
+
+# For large datasets, adjust max_terms to control performance
+network <- create_network(
+  data,
+  similarity_threshold = 0.3,
+  max_terms = 150  # Default: 100
+)
 ```
 
 ### Configuration
