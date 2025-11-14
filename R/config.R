@@ -4,10 +4,14 @@
 
 #' Global Configuration Settings
 #'
-#' This list contains all configurable parameters for GO enrichment analysis
+#' This environment contains all configurable parameters for GO enrichment analysis
 #' and visualization. Modify these values to customize the analysis pipeline.
 
-CONFIG <- list(
+CONFIG <- new.env(parent = emptyenv())
+
+# Initialize configuration values
+local({
+  config_list <- list(
   # ===== Data Processing Parameters =====
 
   # Fold enrichment threshold for filtering GO terms
@@ -100,7 +104,13 @@ CONFIG <- list(
   # Secondary sort (when primary values are equal)
   secondary_sort_by = "pvalue",
   secondary_sort_order = "desc"  # "asc" or "desc"
-)
+  )
+
+  # Assign all values to CONFIG environment
+  for (key in names(config_list)) {
+    CONFIG[[key]] <- config_list[[key]]
+  }
+})
 
 #' Helper function to get configuration value
 #'
@@ -123,7 +133,7 @@ get_config <- function(key, default = NULL) {
 #' @return Invisible NULL
 #' @export
 set_config <- function(key, value) {
-  CONFIG[[key]] <<- value
+  CONFIG[[key]] <- value
   invisible(NULL)
 }
 
@@ -133,8 +143,9 @@ set_config <- function(key, value) {
 #' @export
 print_config <- function() {
   cat("===== Gene Ontology Analysis Configuration =====\n\n")
-  for (key in names(CONFIG)) {
-    cat(sprintf("%-30s: %s\n", key, CONFIG[[key]]))
+  config_list <- as.list(CONFIG)
+  for (key in sort(names(config_list))) {
+    cat(sprintf("%-30s: %s\n", key, config_list[[key]]))
   }
   cat("\n")
   invisible(NULL)

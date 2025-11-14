@@ -18,7 +18,8 @@ Imports:
     ggplot2 (>= 3.3.0),
     dplyr (>= 1.0.0),
     stringr (>= 1.4.0),
-    tidyr (>= 1.1.0)
+    tidyr (>= 1.1.0),
+    rlang (>= 0.4.0)
 Suggests:
     testthat (>= 3.0.0),
     knitr,

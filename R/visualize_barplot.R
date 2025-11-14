@@ -23,6 +23,7 @@
 #'
 #' @importFrom ggplot2 ggplot aes geom_bar scale_fill_gradient labs theme_minimal theme element_text
 #' @importFrom dplyr arrange mutate desc
+#' @importFrom rlang sym
 create_barplot <- function(data, title) {
   if (is.null(data) || nrow(data) == 0) {
     log_warn("No data available for barplot")
@@ -44,12 +45,12 @@ create_barplot <- function(data, title) {
 
   if (secondary_order == "desc") {
     plot_data <- data %>%
-      dplyr::arrange(!!sym(ifelse(sort_by == "count", "Count", "P.value")),
+      dplyr::arrange(!!rlang::sym(ifelse(sort_by == "count", "Count", "P.value")),
                      dplyr::desc(P.value)) %>%
       dplyr::mutate(GO_Term = factor(GO_Term, levels = GO_Term))
   } else {
     plot_data <- data %>%
-      dplyr::arrange(!!sym(ifelse(sort_by == "count", "Count", "P.value")),
+      dplyr::arrange(!!rlang::sym(ifelse(sort_by == "count", "Count", "P.value")),
                      P.value) %>%
       dplyr::mutate(GO_Term = factor(GO_Term, levels = GO_Term))
   }
