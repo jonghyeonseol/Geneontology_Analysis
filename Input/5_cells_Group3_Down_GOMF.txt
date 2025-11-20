@@ -1,0 +1,22 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	Homo sapiens - REFLIST (20580)	upload_1 (70)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+anaphase-promoting complex binding (GO:0010997)	9	3	.03	+	98.00	3.12E-06	3.19E-03
+DNA binding, bending (GO:0008301)	17	3	.06	+	51.88	2.48E-05	1.81E-02
+microtubule binding (GO:0008017)	283	7	.96	+	7.27	4.94E-05	2.53E-02
+enzyme binding (GO:0019899)	2121	27	7.21	+	3.74	4.19E-10	2.15E-06
+identical protein binding (GO:0042802)	2216	20	7.54	+	2.65	3.19E-05	2.04E-02
+anion binding (GO:0043168)	2463	21	8.38	+	2.51	4.45E-05	2.53E-02
+ion binding (GO:0043167)	6172	40	20.99	+	1.91	2.58E-06	3.30E-03
+small molecule binding (GO:0036094)	6359	40	21.63	+	1.85	6.19E-06	5.28E-03
+protein binding (GO:0005515)	14817	69	50.40	+	1.37	4.02E-09	1.03E-05
+binding (GO:0005488)	16779	70	57.07	+	1.23	1.19E-06	2.03E-03

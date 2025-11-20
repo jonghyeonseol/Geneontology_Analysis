@@ -1,0 +1,60 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Homo sapiens - REFLIST (20580)	upload_1 (70)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+cyclin B1-CDK1 complex (GO:0097125)	2	2	.01	+	 > 100	1.14E-05	1.53E-03
+centralspindlin complex (GO:0097149)	3	2	.01	+	 > 100	3.41E-05	3.63E-03
+senescence-associated heterochromatin focus (GO:0035985)	4	2	.01	+	 > 100	6.81E-05	5.73E-03
+contractile ring (GO:0070938)	11	2	.04	+	53.45	6.15E-04	2.95E-02
+anaphase-promoting complex (GO:0005680)	22	3	.07	+	40.09	5.54E-05	5.08E-03
+spindle midzone (GO:0051233)	38	4	.13	+	30.95	8.30E-06	1.40E-03
+other organism part (GO:0044217)	37	3	.13	+	23.84	2.70E-04	1.51E-02
+nuclear ubiquitin ligase complex (GO:0000152)	47	3	.16	+	18.77	5.49E-04	2.77E-02
+kinesin complex (GO:0005871)	48	3	.16	+	18.38	5.84E-04	2.87E-02
+heterochromatin (GO:0000792)	89	5	.30	+	16.52	1.31E-05	1.65E-03
+spindle microtubule (GO:0005876)	83	4	.28	+	14.17	1.84E-04	1.24E-02
+spindle pole (GO:0000922)	185	7	.63	+	11.12	3.15E-06	9.07E-04
+mitotic spindle (GO:0072686)	194	7	.66	+	10.61	4.31E-06	9.66E-04
+blood microparticle (GO:0072562)	144	5	.49	+	10.21	1.31E-04	9.82E-03
+spindle (GO:0005819)	452	13	1.54	+	8.46	3.55E-09	1.79E-06
+midbody (GO:0030496)	212	6	.72	+	8.32	8.43E-05	6.80E-03
+condensed chromosome (GO:0000793)	288	8	.98	+	8.17	5.94E-06	1.20E-03
+nuclear chromosome (GO:0000228)	236	6	.80	+	7.47	1.52E-04	1.09E-02
+chromosome, centromeric region (GO:0000775)	253	6	.86	+	6.97	2.21E-04	1.44E-02
+chromosomal region (GO:0098687)	398	8	1.35	+	5.91	6.04E-05	5.30E-03
+endoplasmic reticulum lumen (GO:0005788)	326	6	1.11	+	5.41	8.44E-04	3.63E-02
+extracellular matrix (GO:0031012)	485	8	1.65	+	4.85	2.36E-04	1.40E-02
+microtubule (GO:0005874)	492	8	1.67	+	4.78	2.59E-04	1.50E-02
+external encapsulating structure (GO:0030312)	501	8	1.70	+	4.69	2.93E-04	1.60E-02
+polymeric cytoskeletal fiber (GO:0099513)	826	11	2.81	+	3.92	1.01E-04	7.85E-03
+supramolecular fiber (GO:0099512)	1065	12	3.62	+	3.31	2.29E-04	1.44E-02
+supramolecular polymer (GO:0099081)	1065	12	3.62	+	3.31	2.29E-04	1.40E-02
+chromosome (GO:0005694)	2006	20	6.82	+	2.93	7.34E-06	1.35E-03
+microtubule cytoskeleton (GO:0015630)	1551	14	5.28	+	2.65	6.34E-04	2.91E-02
+supramolecular complex (GO:0099080)	1899	17	6.46	+	2.63	1.62E-04	1.13E-02
+extracellular vesicle (GO:1903561)	2131	17	7.25	+	2.35	6.32E-04	2.97E-02
+extracellular organelle (GO:0043230)	2132	17	7.25	+	2.34	6.36E-04	2.85E-02
+extracellular membrane-bounded organelle (GO:0065010)	2132	17	7.25	+	2.34	6.36E-04	2.79E-02
+cytoskeleton (GO:0005856)	2568	20	8.73	+	2.29	3.38E-04	1.75E-02
+organelle lumen (GO:0043233)	5831	44	19.83	+	2.22	1.93E-09	3.88E-06
+intracellular organelle lumen (GO:0070013)	5831	44	19.83	+	2.22	1.93E-09	1.94E-06
+membrane-enclosed lumen (GO:0031974)	5831	44	19.83	+	2.22	1.93E-09	1.29E-06
+nucleoplasm (GO:0005654)	4258	31	14.48	+	2.14	8.93E-06	1.29E-03
+nuclear lumen (GO:0031981)	4648	33	15.81	+	2.09	8.75E-06	1.36E-03
+intracellular membraneless organelle (GO:0043232)	5875	36	19.98	+	1.80	5.38E-05	5.43E-03
+membraneless organelle (GO:0043228)	5876	36	19.99	+	1.80	5.40E-05	5.19E-03
+cytosol (GO:0005829)	5617	32	19.11	+	1.67	1.07E-03	4.50E-02
+nucleus (GO:0005634)	7765	44	26.41	+	1.67	3.12E-05	3.50E-03
+intracellular membrane-bounded organelle (GO:0043231)	12348	60	42.00	+	1.43	3.79E-06	9.57E-04
+membrane-bounded organelle (GO:0043227)	13453	65	45.76	+	1.42	9.61E-08	3.23E-05
+organelle (GO:0043226)	14290	67	48.61	+	1.38	6.44E-08	2.60E-05
+intracellular organelle (GO:0043229)	13467	62	45.81	+	1.35	1.32E-05	1.57E-03
+intracellular anatomical structure (GO:0005622)	15126	64	51.45	+	1.24	3.28E-04	1.74E-02
