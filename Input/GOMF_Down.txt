@@ -1,0 +1,35 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	Homo sapiens - REFLIST (20580)	upload_1 (53)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+immunoglobulin receptor binding (GO:0034987)	19	6	.05	+	 > 100	5.76E-12	5.89E-09
+peptidoglycan binding (GO:0042834)	19	3	.05	+	61.31	1.52E-05	4.09E-03
+complement binding (GO:0001848)	25	3	.06	+	46.60	3.56E-05	8.29E-03
+serine-type endopeptidase inhibitor activity (GO:0004867)	102	7	.26	+	26.65	7.62E-09	5.57E-06
+endopeptidase inhibitor activity (GO:0004866)	169	11	.44	+	25.27	4.67E-13	2.39E-09
+peptidase inhibitor activity (GO:0030414)	177	11	.46	+	24.13	7.76E-13	1.32E-09
+endopeptidase regulator activity (GO:0061135)	198	11	.51	+	21.57	2.65E-12	3.39E-09
+peptidase regulator activity (GO:0061134)	235	12	.61	+	19.83	6.55E-13	1.67E-09
+glycosaminoglycan binding (GO:0005539)	239	11	.62	+	17.87	2.04E-11	1.74E-08
+serine-type endopeptidase activity (GO:0004252)	178	8	.46	+	17.45	1.70E-08	9.67E-06
+heparin binding (GO:0008201)	169	7	.44	+	16.08	2.49E-07	1.06E-04
+serine-type peptidase activity (GO:0008236)	196	8	.50	+	15.85	3.60E-08	1.84E-05
+serine hydrolase activity (GO:0017171)	202	8	.52	+	15.38	4.55E-08	2.12E-05
+antigen binding (GO:0003823)	201	7	.52	+	13.52	8.05E-07	2.94E-04
+sulfur compound binding (GO:1901681)	264	7	.68	+	10.30	4.92E-06	1.48E-03
+enzyme inhibitor activity (GO:0004857)	450	11	1.16	+	9.49	1.61E-08	1.03E-05
+endopeptidase activity (GO:0004175)	406	8	1.05	+	7.65	8.73E-06	2.48E-03
+molecular function inhibitor activity (GO:0140678)	610	11	1.57	+	7.00	3.49E-07	1.37E-04
+peptidase activity (GO:0008233)	621	9	1.60	+	5.63	2.65E-05	6.45E-03
+lipid binding (GO:0008289)	870	10	2.24	+	4.46	6.46E-05	1.44E-02
+enzyme regulator activity (GO:0030234)	1398	15	3.60	+	4.17	1.50E-06	4.80E-04
+signaling receptor binding (GO:0005102)	1543	16	3.97	+	4.03	9.55E-07	3.26E-04
+molecular function regulator activity (GO:0098772)	2386	18	6.14	+	2.93	1.57E-05	4.02E-03

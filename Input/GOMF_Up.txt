@@ -1,0 +1,30 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	Homo sapiens - REFLIST (20580)	upload_1 (44)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+immunoglobulin receptor binding (GO:0034987)	19	5	.04	+	 > 100	4.02E-10	2.57E-07
+immunoglobulin binding (GO:0019865)	30	3	.06	+	46.77	3.56E-05	1.01E-02
+serine-type endopeptidase inhibitor activity (GO:0004867)	102	10	.22	+	45.86	1.23E-14	1.26E-11
+endopeptidase inhibitor activity (GO:0004866)	169	13	.36	+	35.98	2.01E-17	1.03E-13
+peptidase inhibitor activity (GO:0030414)	177	13	.38	+	34.35	3.71E-17	6.33E-14
+endopeptidase regulator activity (GO:0061135)	198	13	.42	+	30.71	1.63E-16	2.08E-13
+peptidase regulator activity (GO:0061134)	235	14	.50	+	27.86	3.68E-17	9.43E-14
+antigen binding (GO:0003823)	201	8	.43	+	18.62	9.44E-09	5.37E-06
+protease binding (GO:0002020)	140	5	.30	+	16.70	1.19E-05	3.58E-03
+serine-type endopeptidase activity (GO:0004252)	178	6	.38	+	15.77	2.07E-06	8.14E-04
+serine-type peptidase activity (GO:0008236)	196	6	.42	+	14.32	3.61E-06	1.32E-03
+serine hydrolase activity (GO:0017171)	202	6	.43	+	13.89	4.30E-06	1.47E-03
+enzyme inhibitor activity (GO:0004857)	450	13	.96	+	13.51	6.16E-12	5.26E-09
+glycosaminoglycan binding (GO:0005539)	239	6	.51	+	11.74	1.12E-05	3.60E-03
+molecular function inhibitor activity (GO:0140678)	610	13	1.30	+	9.97	2.68E-10	1.96E-07
+enzyme regulator activity (GO:0030234)	1398	15	2.99	+	5.02	9.88E-08	4.59E-05
+signaling receptor binding (GO:0005102)	1543	16	3.30	+	4.85	5.12E-08	2.62E-05
+molecular function regulator activity (GO:0098772)	2386	18	5.10	+	3.53	7.00E-07	2.99E-04

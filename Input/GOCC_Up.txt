@@ -1,0 +1,56 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Homo sapiens - REFLIST (20580)	upload_1 (44)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+classical-complement-pathway C3/C5 convertase complex (GO:0005601)	3	3	.01	+	 > 100	9.12E-09	9.20E-07
+pentameric IgM immunoglobulin complex (GO:0071756)	3	2	.01	+	 > 100	1.34E-05	1.04E-03
+IgM immunoglobulin complex, circulating (GO:0071754)	3	2	.01	+	 > 100	1.34E-05	1.00E-03
+immunoglobulin complex, circulating (GO:0042571)	12	5	.03	+	 > 100	2.77E-11	3.72E-09
+other organism cell membrane (GO:0044218)	7	2	.01	+	 > 100	9.32E-05	5.53E-03
+membrane attack complex (GO:0005579)	7	2	.01	+	 > 100	9.32E-05	5.37E-03
+symbiont cell surface (GO:0106139)	20	5	.04	+	 > 100	5.35E-10	6.35E-08
+spherical high-density lipoprotein particle (GO:0034366)	8	2	.02	+	 > 100	1.24E-04	6.95E-03
+IgG immunoglobulin complex (GO:0071735)	13	3	.03	+	 > 100	2.57E-06	2.07E-04
+IgM immunoglobulin complex (GO:0071753)	10	2	.02	+	93.55	1.99E-04	1.06E-02
+other organism part (GO:0044217)	37	7	.08	+	88.49	1.21E-12	1.75E-10
+blood microparticle (GO:0072562)	144	24	.31	+	77.95	3.97E-41	8.02E-38
+platelet dense granule lumen (GO:0031089)	14	2	.03	+	66.82	4.00E-04	2.02E-02
+platelet alpha granule lumen (GO:0031093)	67	7	.14	+	48.87	9.78E-11	1.23E-08
+serine-type peptidase complex (GO:1905286)	21	2	.04	+	44.55	9.14E-04	4.39E-02
+platelet dense granule (GO:0042827)	21	2	.04	+	44.55	9.14E-04	4.29E-02
+endocytic vesicle lumen (GO:0071682)	22	2	.05	+	42.52	1.00E-03	4.61E-02
+platelet alpha granule (GO:0031091)	91	7	.19	+	35.98	8.77E-10	9.83E-08
+secretory granule lumen (GO:0034774)	326	13	.70	+	18.65	1.04E-13	1.91E-11
+cytoplasmic vesicle lumen (GO:0060205)	331	13	.71	+	18.37	1.26E-13	2.13E-11
+vesicle lumen (GO:0031983)	332	13	.71	+	18.31	1.31E-13	2.04E-11
+extracellular matrix (GO:0031012)	485	17	1.04	+	16.39	6.17E-17	1.38E-14
+external encapsulating structure (GO:0030312)	501	17	1.07	+	15.87	1.06E-16	2.14E-14
+endoplasmic reticulum lumen (GO:0005788)	326	10	.70	+	14.35	1.33E-09	1.42E-07
+immunoglobulin complex (GO:0019814)	198	5	.42	+	11.81	6.27E-05	4.08E-03
+extracellular exosome (GO:0070062)	2102	36	4.49	+	8.01	1.27E-28	1.28E-25
+extracellular vesicle (GO:1903561)	2131	36	4.56	+	7.90	2.06E-28	1.39E-25
+extracellular organelle (GO:0043230)	2132	36	4.56	+	7.90	2.10E-28	1.06E-25
+extracellular membrane-bounded organelle (GO:0065010)	2132	36	4.56	+	7.90	2.10E-28	8.47E-26
+secretory granule (GO:0030141)	942	13	2.01	+	6.45	4.94E-08	4.74E-06
+cell surface (GO:0009986)	924	12	1.98	+	6.07	3.49E-07	3.06E-05
+extracellular space (GO:0005615)	3225	39	6.90	+	5.66	1.60E-26	5.37E-24
+secretory vesicle (GO:0099503)	1133	13	2.42	+	5.37	4.18E-07	3.51E-05
+extracellular region (GO:0005576)	4287	41	9.17	+	4.47	6.75E-25	1.95E-22
+vesicle (GO:0031982)	4083	37	8.73	+	4.24	7.73E-20	1.95E-17
+cytoplasmic vesicle (GO:0031410)	2614	16	5.59	+	2.86	5.44E-05	3.78E-03
+intracellular vesicle (GO:0097708)	2622	16	5.61	+	2.85	5.65E-05	3.80E-03
+cell periphery (GO:0071944)	6541	31	13.98	+	2.22	2.06E-07	1.89E-05
+endomembrane system (GO:0012505)	4956	21	10.60	+	1.98	6.15E-04	3.03E-02
+membrane-bounded organelle (GO:0043227)	13453	41	28.76	+	1.43	2.25E-05	1.62E-03
+organelle (GO:0043226)	14290	41	30.55	+	1.34	2.23E-04	1.15E-02
+nucleus (GO:0005634)	7765	5	16.60	-	.30	1.37E-04	7.47E-03
+intracellular membraneless organelle (GO:0043232)	5875	2	12.56	-	.16	8.56E-05	5.23E-03
+membraneless organelle (GO:0043228)	5876	2	12.56	-	.16	8.55E-05	5.39E-03

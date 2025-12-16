@@ -103,7 +103,21 @@ local({
 
   # Secondary sort (when primary values are equal)
   secondary_sort_by = "pvalue",
-  secondary_sort_order = "desc"  # "asc" or "desc"
+  secondary_sort_order = "desc",  # "asc" or "desc"
+
+  # ===== Label Settings =====
+
+  # Maximum character length for GO term labels
+  # Labels exceeding this length will be truncated with "..."
+  max_label_length = 50,
+
+  # Label handling method: "truncate" or "wrap"
+  # truncate: Cut label and add "..." at the end
+  # wrap: Split label into multiple lines
+  label_method = "truncate",
+
+  # Wrap width (only used when label_method = "wrap")
+  label_wrap_width = 40
   )
 
   # Assign all values to CONFIG environment

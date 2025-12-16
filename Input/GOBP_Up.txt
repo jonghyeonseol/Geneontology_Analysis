@@ -1,0 +1,121 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Homo sapiens - REFLIST (20580)	upload_1 (44)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+negative regulation of complement activation, lectin pathway (GO:0001869)	2	2	.00	+	 > 100	4.47E-06	9.84E-04
+regulation of complement activation, lectin pathway (GO:0001868)	2	2	.00	+	 > 100	4.47E-06	9.69E-04
+positive regulation of activation of membrane attack complex (GO:0001970)	3	2	.01	+	 > 100	1.34E-05	2.63E-03
+vertebrate eye-specific patterning (GO:0150064)	3	2	.01	+	 > 100	1.34E-05	2.60E-03
+positive regulation of substrate-dependent cell migration, cell attachment to substrate (GO:1904237)	3	2	.01	+	 > 100	1.34E-05	2.56E-03
+regulation of substrate-dependent cell migration, cell attachment to substrate (GO:1904235)	3	2	.01	+	 > 100	1.34E-05	2.53E-03
+complement-dependent cytotoxicity (GO:0097278)	3	2	.01	+	 > 100	1.34E-05	2.50E-03
+regulation of activation of membrane attack complex (GO:0001969)	5	3	.01	+	 > 100	9.09E-08	2.74E-05
+complement-mediated synapse pruning (GO:0150062)	4	2	.01	+	 > 100	2.67E-05	4.48E-03
+complement activation, GZMK pathway (GO:0160257)	12	5	.03	+	 > 100	2.77E-11	1.57E-08
+positive regulation of apoptotic cell clearance (GO:2000427)	8	3	.02	+	 > 100	5.07E-07	1.31E-04
+complement activation, lectin pathway (GO:0001867)	13	4	.03	+	 > 100	1.28E-08	4.30E-06
+regulation of apoptotic cell clearance (GO:2000425)	10	3	.02	+	 > 100	1.08E-06	2.75E-04
+complement activation, classical pathway (GO:0006958)	37	11	.08	+	 > 100	9.01E-22	6.64E-18
+positive regulation of complement activation (GO:0045917)	7	2	.01	+	 > 100	9.32E-05	1.43E-02
+humoral immune response mediated by circulating immunoglobulin (GO:0002455)	42	11	.09	+	 > 100	4.48E-21	1.65E-17
+regulation of complement activation (GO:0030449)	23	6	.05	+	 > 100	6.58E-12	4.62E-09
+negative regulation of fibrinolysis (GO:0051918)	12	3	.03	+	 > 100	1.98E-06	4.79E-04
+regulation of complement-dependent cytotoxicity (GO:1903659)	9	2	.02	+	 > 100	1.59E-04	2.33E-02
+complement activation (GO:0006956)	55	12	.12	+	 > 100	7.24E-22	1.07E-17
+negative regulation of complement activation (GO:0045916)	14	3	.03	+	 > 100	3.26E-06	7.41E-04
+fibrinolysis (GO:0042730)	19	4	.04	+	98.47	6.88E-08	2.16E-05
+synapse pruning (GO:0098883)	10	2	.02	+	93.55	1.99E-04	2.82E-02
+complement activation, alternative pathway (GO:0006957)	16	3	.03	+	87.70	5.01E-06	1.07E-03
+cytolysis by host of symbiont cells (GO:0051838)	11	2	.02	+	85.04	2.43E-04	3.35E-02
+opsonization (GO:0008228)	11	2	.02	+	85.04	2.43E-04	3.32E-02
+regulation of fibrinolysis (GO:0051917)	17	3	.04	+	82.54	6.07E-06	1.28E-03
+negative regulation of humoral immune response (GO:0002921)	18	3	.04	+	77.95	7.28E-06	1.49E-03
+positive regulation of hemostasis (GO:1900048)	26	4	.06	+	71.96	2.62E-07	7.59E-05
+positive regulation of blood coagulation (GO:0030194)	26	4	.06	+	71.96	2.62E-07	7.45E-05
+acute-phase response (GO:0006953)	40	6	.09	+	70.16	2.43E-10	1.24E-07
+regulation of humoral immune response (GO:0002920)	47	7	.10	+	69.66	7.30E-12	4.68E-09
+positive regulation of humoral immune response (GO:0002922)	22	3	.05	+	63.78	1.36E-05	2.52E-03
+positive regulation of coagulation (GO:0050820)	30	4	.06	+	62.36	4.78E-07	1.26E-04
+acute inflammatory response (GO:0002526)	73	8	.16	+	51.26	2.70E-12	2.34E-09
+regulation of blood coagulation (GO:0030193)	68	6	.15	+	41.27	6.64E-09	2.58E-06
+antibacterial humoral response (GO:0019731)	68	6	.15	+	41.27	6.64E-09	2.51E-06
+negative regulation of blood coagulation (GO:0030195)	46	4	.10	+	40.67	2.78E-06	6.50E-04
+regulation of hemostasis (GO:1900046)	70	6	.15	+	40.09	7.93E-09	2.85E-06
+negative regulation of hemostasis (GO:1900047)	47	4	.10	+	39.81	3.03E-06	6.99E-04
+biological process involved in interaction with symbiont (GO:0051702)	36	3	.08	+	38.98	6.20E-05	9.83E-03
+negative regulation of coagulation (GO:0050819)	49	4	.10	+	38.18	3.59E-06	8.02E-04
+regulation of coagulation (GO:0050818)	75	6	.16	+	37.42	1.21E-08	4.15E-06
+B cell receptor signaling pathway (GO:0050853)	57	4	.12	+	32.82	6.61E-06	1.37E-03
+positive regulation of wound healing (GO:0090303)	63	4	.13	+	29.70	9.87E-06	2.00E-03
+humoral immune response (GO:0006959)	273	17	.58	+	29.13	3.68E-21	1.81E-17
+immunoglobulin mediated immune response (GO:0016064)	183	11	.39	+	28.11	1.21E-13	1.98E-10
+negative regulation of wound healing (GO:0061045)	67	4	.14	+	27.92	1.26E-05	2.52E-03
+B cell mediated immunity (GO:0019724)	188	11	.40	+	27.37	1.62E-13	2.18E-10
+positive regulation of response to wounding (GO:1903036)	71	4	.15	+	26.35	1.59E-05	2.90E-03
+positive regulation of receptor-mediated endocytosis (GO:0048260)	54	3	.12	+	25.98	2.10E-04	2.92E-02
+antimicrobial humoral response (GO:0019730)	168	8	.36	+	22.27	2.30E-09	9.71E-07
+regulation of wound healing (GO:0061041)	131	6	.28	+	21.42	3.43E-07	9.38E-05
+negative regulation of response to wounding (GO:1903035)	91	4	.19	+	20.56	4.24E-05	6.88E-03
+blood coagulation (GO:0007596)	191	8	.41	+	19.59	6.33E-09	2.52E-06
+lymphocyte mediated immunity (GO:0002449)	264	11	.56	+	19.49	6.63E-12	4.45E-09
+coagulation (GO:0050817)	193	8	.41	+	19.39	6.87E-09	2.53E-06
+adaptive immune response based on somatic recombination of immune receptors built from immunoglobulin superfamily domains (GO:0002460)	270	11	.58	+	19.06	8.45E-12	5.20E-09
+hemostasis (GO:0007599)	197	8	.42	+	18.99	8.07E-09	2.83E-06
+leukocyte mediated immunity (GO:0002443)	323	12	.69	+	17.38	2.45E-12	2.26E-09
+regulation of response to wounding (GO:1903034)	168	6	.36	+	16.70	1.48E-06	3.63E-04
+disruption of cell in another organism (GO:0141061)	115	4	.25	+	16.27	1.06E-04	1.61E-02
+killing of cells of another organism (GO:0031640)	115	4	.25	+	16.27	1.06E-04	1.59E-02
+activation of immune response (GO:0002253)	406	14	.87	+	16.13	7.27E-14	1.53E-10
+disruption of anatomical structure in another organism (GO:0141060)	119	4	.25	+	15.72	1.21E-04	1.80E-02
+cell killing (GO:0001906)	180	6	.38	+	15.59	2.21E-06	5.25E-04
+positive regulation of endocytosis (GO:0045807)	161	5	.34	+	14.53	2.34E-05	4.01E-03
+wound healing (GO:0042060)	339	9	.72	+	12.42	3.43E-08	1.10E-05
+immune effector process (GO:0002252)	500	13	1.07	+	12.16	2.30E-11	1.36E-08
+defense response to bacterium (GO:0042742)	319	8	.68	+	11.73	3.33E-07	9.27E-05
+inflammatory response (GO:0006954)	601	15	1.28	+	11.67	8.47E-13	9.62E-10
+immune response-activating cell surface receptor signaling pathway (GO:0002429)	255	6	.55	+	11.01	1.62E-05	2.92E-03
+positive regulation of immune response (GO:0050778)	689	16	1.47	+	10.86	3.65E-13	4.49E-10
+regulation of body fluid levels (GO:0050878)	381	8	.81	+	9.82	1.27E-06	3.17E-04
+immune response-regulating cell surface receptor signaling pathway (GO:0002768)	290	6	.62	+	9.68	3.35E-05	5.55E-03
+regulation of angiogenesis (GO:0045765)	297	6	.63	+	9.45	3.82E-05	6.27E-03
+defense response to symbiont (GO:0140546)	908	18	1.94	+	9.27	1.18E-13	2.18E-10
+regulation of vasculature development (GO:1901342)	304	6	.65	+	9.23	4.35E-05	6.98E-03
+response to wounding (GO:0009611)	457	9	.98	+	9.21	4.32E-07	1.16E-04
+defense response to other organism (GO:0098542)	924	18	1.98	+	9.11	1.59E-13	2.35E-10
+adaptive immune response (GO:0002250)	688	13	1.47	+	8.84	1.16E-09	5.20E-07
+immune response-activating signaling pathway (GO:0002757)	341	6	.73	+	8.23	8.22E-05	1.28E-02
+regulation of immune response (GO:0050776)	1033	18	2.21	+	8.15	1.05E-12	1.11E-09
+regulation of immune effector process (GO:0002697)	414	7	.89	+	7.91	2.55E-05	4.33E-03
+defense response (GO:0006952)	1527	25	3.26	+	7.66	1.69E-17	4.99E-14
+response to bacterium (GO:0009617)	704	11	1.51	+	7.31	1.90E-07	5.61E-05
+positive regulation of immune system process (GO:0002684)	1045	16	2.23	+	7.16	1.89E-10	9.98E-08
+innate immune response (GO:0045087)	800	12	1.71	+	7.02	7.35E-08	2.26E-05
+negative regulation of response to external stimulus (GO:0032102)	404	6	.86	+	6.95	2.07E-04	2.91E-02
+protein maturation (GO:0051604)	554	8	1.18	+	6.75	1.98E-05	3.43E-03
+immune response-regulating signaling pathway (GO:0002764)	417	6	.89	+	6.73	2.46E-04	3.33E-02
+response to other organism (GO:0051707)	1457	20	3.12	+	6.42	2.99E-12	2.45E-09
+response to external biotic stimulus (GO:0043207)	1460	20	3.12	+	6.41	3.11E-12	2.41E-09
+response to biotic stimulus (GO:0009607)	1507	20	3.22	+	6.21	5.56E-12	4.11E-09
+biological process involved in interspecies interaction between organisms (GO:0044419)	1627	21	3.48	+	6.04	2.17E-12	2.13E-09
+immune response (GO:0006955)	1753	19	3.75	+	5.07	7.62E-10	3.63E-07
+regulation of immune system process (GO:0002682)	1661	18	3.55	+	5.07	2.59E-09	1.06E-06
+response to external stimulus (GO:0009605)	2003	20	4.28	+	4.67	9.36E-10	4.32E-07
+regulation of response to external stimulus (GO:0032101)	1122	11	2.40	+	4.59	1.75E-05	3.11E-03
+positive regulation of response to stimulus (GO:0048584)	2316	21	4.95	+	4.24	1.67E-09	7.26E-07
+immune system process (GO:0002376)	2436	22	5.21	+	4.22	5.78E-10	2.84E-07
+response to stress (GO:0006950)	3577	31	7.65	+	4.05	1.20E-14	2.95E-11
+regulation of response to stress (GO:0080134)	1455	11	3.11	+	3.54	1.85E-04	2.65E-02
+positive regulation of multicellular organismal process (GO:0051240)	1678	12	3.59	+	3.34	1.49E-04	2.20E-02
+regulation of response to stimulus (GO:0048583)	4142	26	8.86	+	2.94	1.63E-08	5.36E-06
+regulation of multicellular organismal process (GO:0051239)	2996	17	6.41	+	2.65	7.58E-05	1.19E-02
+response to stimulus (GO:0050896)	8315	39	17.78	+	2.19	3.81E-11	2.08E-08
+positive regulation of biological process (GO:0048518)	6174	27	13.20	+	2.05	1.89E-05	3.33E-03
+biological regulation (GO:0065007)	12243	38	26.18	+	1.45	1.61E-04	2.33E-02

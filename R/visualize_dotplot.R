@@ -25,6 +25,7 @@
 #' @importFrom ggplot2 ggplot aes geom_point scale_color_gradient scale_size_continuous labs theme_minimal theme element_text
 #' @importFrom dplyr arrange mutate desc
 #' @importFrom rlang sym
+#' @importFrom stringr str_wrap
 create_dotplot <- function(data, title) {
   if (is.null(data) || nrow(data) == 0) {
     log_warn("No data available for dotplot")
@@ -41,6 +42,23 @@ create_dotplot <- function(data, title) {
   font_size_axis_title <- get_config("font_size_axis_title", 12)
   font_size_plot_title <- get_config("font_size_plot_title", 14)
 
+  # Label processing settings
+  max_label_length <- get_config("max_label_length", 50)
+  label_method <- get_config("label_method", "truncate")
+  label_wrap_width <- get_config("label_wrap_width", 40)
+
+  # Helper function to process labels
+  process_label <- function(label, method, max_len, wrap_width) {
+    if (method == "wrap") {
+      stringr::str_wrap(label, width = wrap_width)
+    } else {
+      # truncate method
+      ifelse(nchar(label) > max_len,
+             paste0(substr(label, 1, max_len - 3), "..."),
+             label)
+    }
+  }
+
   # Prepare data for plotting (highest Gene Ratio at top - descending order)
   # When Gene_Ratio is the same, sort by p-value in descending order
   sort_by <- get_config("dotplot_sort_by", "gene_ratio")
@@ -51,15 +69,27 @@ create_dotplot <- function(data, title) {
     plot_data <- data %>%
       dplyr::arrange(!!rlang::sym(ifelse(sort_by == "gene_ratio", "Gene_Ratio", "P.value")),
                      dplyr::desc(P.value)) %>%
-      dplyr::mutate(GO_Term = factor(GO_Term, levels = GO_Term))
+      dplyr::mutate(
+        GO_Term_Display = sapply(GO_Term, process_label,
+                                  method = label_method,
+                                  max_len = max_label_length,
+                                  wrap_width = label_wrap_width),
+        GO_Term_Display = factor(GO_Term_Display, levels = GO_Term_Display)
+      )
   } else {
     plot_data <- data %>%
       dplyr::arrange(!!rlang::sym(ifelse(sort_by == "gene_ratio", "Gene_Ratio", "P.value")),
                      P.value) %>%
-      dplyr::mutate(GO_Term = factor(GO_Term, levels = GO_Term))
+      dplyr::mutate(
+        GO_Term_Display = sapply(GO_Term, process_label,
+                                  method = label_method,
+                                  max_len = max_label_length,
+                                  wrap_width = label_wrap_width),
+        GO_Term_Display = factor(GO_Term_Display, levels = GO_Term_Display)
+      )
   }
 
-  p <- ggplot2::ggplot(plot_data, ggplot2::aes(x = Gene_Ratio, y = GO_Term)) +
+  p <- ggplot2::ggplot(plot_data, ggplot2::aes(x = Gene_Ratio, y = GO_Term_Display)) +
     ggplot2::geom_point(ggplot2::aes(size = Count, color = neg_log10_pvalue)) +
     ggplot2::scale_color_gradient(low = color_low, high = color_high, name = "-log10(p-value)") +
     ggplot2::scale_size_continuous(name = "Gene Count", range = c(point_size_min, point_size_max)) +
