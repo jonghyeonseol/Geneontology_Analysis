@@ -23,3 +23,6 @@
 # IDE files
 .vscode/
 .idea/
+
+# Tool-specific directories
+.serena/
