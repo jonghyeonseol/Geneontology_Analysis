@@ -58,44 +58,52 @@ validate_input_file <- function(file_path) {
   }
 
   # Read file content
-  tryCatch({
-    lines <- readLines(file_path, warn = FALSE)
+  tryCatch(
+    {
+      lines <- readLines(file_path, warn = FALSE)
 
-    # Check minimum line count
-    min_lines <- get_config("min_file_lines", 12)
-    if (length(lines) <= min_lines) {
-      log_warn(sprintf("File has insufficient lines (%d <= %d): %s",
-                       length(lines), min_lines, basename(file_path)))
-      return(FALSE)
-    }
-
-    # Check for PANTHER format signature
-    if (!any(grepl("PANTHER Overrepresentation Test", lines))) {
-      log_warn(sprintf("File does not appear to be PANTHER format: %s",
-                       basename(file_path)))
-      if (get_config("strict_validation", TRUE)) {
+      # Check minimum line count
+      min_lines <- get_config("min_file_lines", 12)
+      if (length(lines) <= min_lines) {
+        log_warn(sprintf(
+          "File has insufficient lines (%d <= %d): %s",
+          length(lines), min_lines, basename(file_path)
+        ))
         return(FALSE)
       }
-    }
 
-    # Check for upload_1 pattern with gene count
-    header_line <- get_config("header_line_number", 12)
-    if (header_line <= length(lines)) {
-      if (!grepl("upload_1 \\(\\d+\\)", lines[header_line])) {
-        log_warn(sprintf("Cannot find gene count in expected header line: %s",
-                         basename(file_path)))
+      # Check for PANTHER format signature
+      if (!any(grepl("PANTHER Overrepresentation Test", lines))) {
+        log_warn(sprintf(
+          "File does not appear to be PANTHER format: %s",
+          basename(file_path)
+        ))
         if (get_config("strict_validation", TRUE)) {
           return(FALSE)
         }
       }
+
+      # Check for upload_1 pattern with gene count
+      header_line <- get_config("header_line_number", 12)
+      if (header_line <= length(lines)) {
+        if (!grepl("upload_1 \\(\\d+\\)", lines[header_line])) {
+          log_warn(sprintf(
+            "Cannot find gene count in expected header line: %s",
+            basename(file_path)
+          ))
+          if (get_config("strict_validation", TRUE)) {
+            return(FALSE)
+          }
+        }
+      }
+
+      return(TRUE)
+    },
+    error = function(e) {
+      log_error(sprintf("Error reading file %s: %s", file_path, e$message))
+      return(FALSE)
     }
-
-    return(TRUE)
-
-  }, error = function(e) {
-    log_error(sprintf("Error reading file %s: %s", file_path, e$message))
-    return(FALSE)
-  })
+  )
 }
 
 #' Sanitize file path
@@ -132,11 +140,15 @@ check_dependencies <- function() {
   }
 
   if (length(missing_packages) > 0) {
-    log_error(sprintf("Missing required packages: %s",
-                      paste(missing_packages, collapse = ", ")))
+    log_error(sprintf(
+      "Missing required packages: %s",
+      paste(missing_packages, collapse = ", ")
+    ))
     log_info("Install missing packages with:")
-    log_info(sprintf('  install.packages(c("%s"))',
-                     paste(missing_packages, collapse = '", "')))
+    log_info(sprintf(
+      '  install.packages(c("%s"))',
+      paste(missing_packages, collapse = '", "')
+    ))
     return(FALSE)
   }
 
@@ -185,7 +197,9 @@ extract_go_info <- function(full_term) {
 #' @return Formatted string
 #' @export
 format_pvalue <- function(pvalue, digits = 2) {
-  if (is.na(pvalue)) return("NA")
+  if (is.na(pvalue)) {
+    return("NA")
+  }
   if (pvalue < 0.001) {
     return(sprintf("%.2e", pvalue))
   } else {
@@ -200,14 +214,23 @@ format_pvalue <- function(pvalue, digits = 2) {
 #' @export
 validate_config <- function() {
   # Check numeric parameters
-  numeric_params <- c("fold_enrichment_threshold", "top_n_terms",
-                      "output_dpi", "plot_width", "plot_height")
+  # Check numeric parameters (strictly positive)
+  numeric_params <- c(
+    "top_n_terms",
+    "output_dpi", "plot_width", "plot_height"
+  )
 
   for (param in numeric_params) {
     value <- get_config(param)
     if (!is.numeric(value) || value <= 0) {
       stop(sprintf("Invalid configuration: %s must be a positive number", param))
     }
+  }
+
+  # Check fold_enrichment_threshold (non-negative)
+  fe_threshold <- get_config("fold_enrichment_threshold")
+  if (!is.numeric(fe_threshold) || fe_threshold < 0) {
+    stop("Invalid configuration: fold_enrichment_threshold must be a non-negative number")
   }
 
   # Check directory parameters
@@ -237,8 +260,10 @@ get_output_path <- function(input_filename, plot_type = "barplot") {
     output_dir <- get_config("dotplot_dir", "Output/Dotplots")
   }
 
-  output_file <- file.path(output_dir,
-                           paste0(file_base, "_", plot_type, ".", output_format))
+  output_file <- file.path(
+    output_dir,
+    paste0(file_base, "_", plot_type, ".", output_format)
+  )
 
   return(output_file)
 }

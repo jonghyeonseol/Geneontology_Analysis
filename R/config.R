@@ -12,112 +12,112 @@ CONFIG <- new.env(parent = emptyenv())
 # Initialize configuration values
 local({
   config_list <- list(
-  # ===== Data Processing Parameters =====
+    # ===== Data Processing Parameters =====
 
-  # Fold enrichment threshold for filtering GO terms
-  # Only terms with fold enrichment >= this value will be included
-  fold_enrichment_threshold = 10,
+    # Fold enrichment threshold for filtering GO terms
+    # Only terms with fold enrichment >= this value will be included
+    fold_enrichment_threshold = 0,
 
-  # Number of top GO terms to display in visualizations
-  # Terms are ranked by p-value significance
-  top_n_terms = 20,
+    # Number of top GO terms to display in visualizations
+    # Terms are ranked by p-value significance
+    top_n_terms = 20,
 
-  # Line number where the header is located in PANTHER files
-  # Default PANTHER format has header at line 12
-  header_line_number = 12,
+    # Line number where the header is located in PANTHER files
+    # Default PANTHER format has header at line 12
+    header_line_number = 12,
 
-  # Line number where data starts in PANTHER files
-  # Default PANTHER format has data starting at line 13
-  data_start_line = 13,
+    # Line number where data starts in PANTHER files
+    # Default PANTHER format has data starting at line 13
+    data_start_line = 13,
 
-  # Minimum number of lines required in input file
-  # Files with fewer lines will be skipped
-  min_file_lines = 12,
+    # Minimum number of lines required in input file
+    # Files with fewer lines will be skipped
+    min_file_lines = 12,
 
-  # ===== Visualization Parameters =====
+    # ===== Visualization Parameters =====
 
-  # Output image format
-  output_format = "png",  # Options: "png", "pdf", "svg", "jpg"
+    # Output image format
+    output_format = "png", # Options: "png", "pdf", "svg", "jpg"
 
-  # Output resolution (DPI) for raster images
-  output_dpi = 300,
+    # Output resolution (DPI) for raster images
+    output_dpi = 300,
 
-  # Plot dimensions (inches)
-  plot_width = 12,
-  plot_height = 8,
+    # Plot dimensions (inches)
+    plot_width = 12,
+    plot_height = 8,
 
-  # Color gradient for significance visualization
-  color_low = "blue",    # Color for low significance
-  color_high = "red",    # Color for high significance
+    # Color gradient for significance visualization
+    color_low = "blue", # Color for low significance
+    color_high = "red", # Color for high significance
 
-  # Point size range for dotplots
-  point_size_min = 3,
-  point_size_max = 10,
+    # Point size range for dotplots
+    point_size_min = 3,
+    point_size_max = 10,
 
-  # Font sizes
-  font_size_axis_text = 10,
-  font_size_axis_title = 12,
-  font_size_plot_title = 14,
-  font_size_dotplot_y = 15,
+    # Font sizes
+    font_size_axis_text = 10,
+    font_size_axis_title = 12,
+    font_size_plot_title = 14,
+    font_size_dotplot_y = 15,
 
-  # ===== Directory Configuration =====
+    # ===== Directory Configuration =====
 
-  # Input directory containing PANTHER enrichment files
-  input_dir = "Input",
+    # Input directory containing PANTHER enrichment files
+    input_dir = "Input",
 
-  # Output directory for all visualizations
-  output_dir = "Output",
+    # Output directory for all visualizations
+    output_dir = "Output",
 
-  # Subdirectory for barplots
-  barplot_dir = "Output/Barplots",
+    # Subdirectory for barplots
+    barplot_dir = "Output/Barplots",
 
-  # Subdirectory for dotplots
-  dotplot_dir = "Output/Dotplots",
+    # Subdirectory for dotplots
+    dotplot_dir = "Output/Dotplots",
 
-  # ===== File Pattern Configuration =====
+    # ===== File Pattern Configuration =====
 
-  # File extension for input files
-  input_file_pattern = "\\.txt$",
+    # File extension for input files
+    input_file_pattern = "\\.txt$",
 
-  # ===== Validation Settings =====
+    # ===== Validation Settings =====
 
-  # Enable/disable strict input validation
-  strict_validation = TRUE,
+    # Enable/disable strict input validation
+    strict_validation = TRUE,
 
-  # Enable/disable verbose logging
-  verbose = TRUE,
+    # Enable/disable verbose logging
+    verbose = TRUE,
 
-  # ===== Advanced Settings =====
+    # ===== Advanced Settings =====
 
-  # Handle fold enrichment values marked as "> 100"
-  # This value will replace "> 100" strings
-  fold_enrichment_ceiling = 100,
+    # Handle fold enrichment values marked as "> 100"
+    # This value will replace "> 100" strings
+    fold_enrichment_ceiling = 100,
 
-  # Sorting strategy for barplots
-  # Options: "count", "pvalue", "fold_enrichment"
-  barplot_sort_by = "count",
+    # Sorting strategy for barplots
+    # Options: "count", "pvalue", "fold_enrichment"
+    barplot_sort_by = "count",
 
-  # Sorting strategy for dotplots
-  # Options: "gene_ratio", "pvalue", "fold_enrichment"
-  dotplot_sort_by = "gene_ratio",
+    # Sorting strategy for dotplots
+    # Options: "gene_ratio", "pvalue", "fold_enrichment"
+    dotplot_sort_by = "gene_ratio",
 
-  # Secondary sort (when primary values are equal)
-  secondary_sort_by = "pvalue",
-  secondary_sort_order = "desc",  # "asc" or "desc"
+    # Secondary sort (when primary values are equal)
+    secondary_sort_by = "pvalue",
+    secondary_sort_order = "desc", # "asc" or "desc"
 
-  # ===== Label Settings =====
+    # ===== Label Settings =====
 
-  # Maximum character length for GO term labels
-  # Labels exceeding this length will be truncated with "..."
-  max_label_length = 50,
+    # Maximum character length for GO term labels
+    # Labels exceeding this length will be truncated with "..."
+    max_label_length = 50,
 
-  # Label handling method: "truncate" or "wrap"
-  # truncate: Cut label and add "..." at the end
-  # wrap: Split label into multiple lines
-  label_method = "truncate",
+    # Label handling method: "truncate" or "wrap"
+    # truncate: Cut label and add "..." at the end
+    # wrap: Split label into multiple lines
+    label_method = "truncate",
 
-  # Wrap width (only used when label_method = "wrap")
-  label_wrap_width = 40
+    # Wrap width (only used when label_method = "wrap")
+    label_wrap_width = 40
   )
 
   # Assign all values to CONFIG environment
