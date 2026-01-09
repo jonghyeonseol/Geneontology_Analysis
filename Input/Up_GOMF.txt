@@ -1,0 +1,56 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	Homo sapiens - REFLIST (20580)	upload_1 (373)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+structural constituent of nuclear lamina (GO:0160123)	2	2	.04	+	55.17	3.28E-04	4.19E-02
+15-hydroxyprostaglandin-D dehydrogenase (NADP+) activity (GO:0047020)	2	2	.04	+	55.17	3.28E-04	4.09E-02
+supercoiled DNA binding (GO:0097100)	5	4	.09	+	44.14	5.23E-07	1.41E-04
+nucleosomal DNA binding (GO:0031492)	41	15	.74	+	20.19	2.34E-16	2.99E-13
+DNA binding, bending (GO:0008301)	17	4	.31	+	12.98	2.10E-04	2.98E-02
+nucleosome binding (GO:0031491)	73	16	1.32	+	12.09	2.03E-13	1.48E-10
+structural constituent of chromatin (GO:0030527)	65	9	1.18	+	7.64	2.50E-06	5.82E-04
+chromatin DNA binding (GO:0031490)	127	17	2.30	+	7.39	1.49E-10	8.46E-08
+intramolecular oxidoreductase activity (GO:0016860)	51	6	.92	+	6.49	3.08E-04	4.04E-02
+molecular condensate scaffold activity (GO:0140693)	52	6	.94	+	6.37	3.43E-04	4.18E-02
+single-stranded RNA binding (GO:0003727)	87	10	1.58	+	6.34	3.93E-06	8.37E-04
+structural constituent of ribosome (GO:0003735)	165	17	2.99	+	5.68	8.90E-09	3.04E-06
+mRNA 3'-UTR binding (GO:0003730)	112	11	2.03	+	5.42	6.12E-06	1.25E-03
+mRNA binding (GO:0003729)	362	35	6.56	+	5.33	6.87E-16	7.03E-13
+cadherin binding (GO:0045296)	325	29	5.89	+	4.92	1.76E-12	1.13E-09
+RNA binding (GO:0003723)	1689	140	30.61	+	4.57	3.05E-57	1.56E-53
+ribonucleoprotein complex binding (GO:0043021)	181	15	3.28	+	4.57	1.14E-06	2.93E-04
+protein-folding chaperone binding (GO:0051087)	135	11	2.45	+	4.50	3.60E-05	6.15E-03
+ribosome binding (GO:0043022)	116	9	2.10	+	4.28	2.66E-04	3.68E-02
+histone binding (GO:0042393)	177	12	3.21	+	3.74	9.74E-05	1.56E-02
+transcription coactivator activity (GO:0003713)	291	19	5.27	+	3.60	1.69E-06	4.13E-04
+chromatin binding (GO:0003682)	620	35	11.24	+	3.11	3.13E-09	1.14E-06
+structural molecule activity (GO:0005198)	812	42	14.72	+	2.85	1.06E-09	4.94E-07
+cell adhesion molecule binding (GO:0050839)	628	32	11.38	+	2.81	1.62E-07	5.20E-05
+tubulin binding (GO:0015631)	395	18	7.16	+	2.51	3.46E-04	4.11E-02
+protein-containing complex binding (GO:0044877)	1299	58	23.54	+	2.46	1.89E-10	9.65E-08
+nucleic acid binding (GO:0003676)	3994	168	72.39	+	2.32	6.85E-30	1.75E-26
+transcription coregulator activity (GO:0003712)	533	22	9.66	+	2.28	3.67E-04	4.27E-02
+cytoskeletal protein binding (GO:0008092)	1008	38	18.27	+	2.08	2.59E-05	4.57E-03
+molecular adaptor activity (GO:0060090)	1441	49	26.12	+	1.88	2.08E-05	3.80E-03
+protein-macromolecule adaptor activity (GO:0030674)	1301	44	23.58	+	1.87	6.03E-05	9.96E-03
+identical protein binding (GO:0042802)	2216	74	40.16	+	1.84	1.87E-07	5.32E-05
+protein binding (GO:0005515)	14817	336	268.55	+	1.25	8.31E-18	1.42E-14
+binding (GO:0005488)	16779	353	304.11	+	1.16	1.28E-13	1.09E-10
+molecular_function (GO:0003674)	18310	363	331.86	+	1.09	2.75E-09	1.17E-06
+molecular transducer activity (GO:0060089)	1604	11	29.07	-	.38	1.25E-04	1.93E-02
+signaling receptor activity (GO:0038023)	1604	11	29.07	-	.38	1.25E-04	1.88E-02
+DNA-binding transcription factor activity (GO:0003700)	1422	7	25.77	-	.27	1.19E-05	2.26E-03
+DNA-binding transcription factor activity, RNA polymerase II-specific (GO:0000981)	1332	6	24.14	-	.25	1.06E-05	2.09E-03
+Unclassified (UNCLASSIFIED)	2270	10	41.14	-	.24	2.75E-09	1.08E-06
+transmembrane signaling receptor activity (GO:0004888)	1326	5	24.03	-	.21	3.19E-06	7.10E-04
+inorganic cation transmembrane transporter activity (GO:0022890)	615	1	11.15	-	.09	2.97E-04	4.00E-02
+monoatomic cation transmembrane transporter activity (GO:0008324)	649	1	11.76	-	.09	1.36E-04	1.99E-02
+G protein-coupled receptor activity (GO:0004930)	879	0	15.93	-	 < 0.01	1.65E-07	4.97E-05
