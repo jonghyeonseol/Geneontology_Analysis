@@ -1,0 +1,98 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.5281/zenodo.16423886 Released 2025-07-22
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Homo sapiens - REFLIST (20580)	upload_1 (373)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+muscle thin filament tropomyosin (GO:0005862)	4	3	.07	+	41.38	2.33E-05	9.41E-04
+proteasome activator complex (GO:0008537)	3	2	.05	+	36.78	9.71E-04	2.54E-02
+senescence-associated heterochromatin focus (GO:0035985)	4	2	.07	+	27.59	1.92E-03	4.56E-02
+spindle pole centrosome (GO:0031616)	15	4	.27	+	14.71	1.24E-04	4.30E-03
+nuclear inclusion body (GO:0042405)	12	3	.22	+	13.79	1.15E-03	2.94E-02
+nuclear pore nuclear basket (GO:0044615)	13	3	.24	+	12.73	1.48E-03	3.63E-02
+nuclear periphery (GO:0034399)	31	7	.56	+	12.46	1.10E-06	6.51E-05
+prespliceosome (GO:0071010)	18	4	.33	+	12.26	2.66E-04	8.25E-03
+U2-type prespliceosome (GO:0071004)	18	4	.33	+	12.26	2.66E-04	8.12E-03
+exon-exon junction complex (GO:0035145)	21	4	.38	+	10.51	4.98E-04	1.40E-02
+euchromatin (GO:0000791)	62	10	1.12	+	8.90	1.58E-07	9.65E-06
+small ribosomal subunit (GO:0015935)	75	9	1.36	+	6.62	8.39E-06	3.60E-04
+cytosolic small ribosomal subunit (GO:0022627)	42	5	.76	+	6.57	9.33E-04	2.48E-02
+protein folding chaperone complex (GO:0101031)	43	5	.78	+	6.42	1.04E-03	2.69E-02
+ribosomal subunit (GO:0044391)	186	20	3.37	+	5.93	1.99E-10	1.44E-08
+proteasome complex (GO:0000502)	66	7	1.20	+	5.85	1.89E-04	6.04E-03
+preribosome (GO:0030684)	104	11	1.88	+	5.84	2.96E-06	1.39E-04
+large ribosomal subunit (GO:0015934)	114	12	2.07	+	5.81	1.11E-06	6.38E-05
+ribosome (GO:0005840)	232	24	4.20	+	5.71	6.80E-12	5.72E-10
+cytosolic large ribosomal subunit (GO:0022625)	58	6	1.05	+	5.71	6.23E-04	1.70E-02
+heterochromatin (GO:0000792)	89	9	1.61	+	5.58	3.40E-05	1.32E-03
+mitochondrial intermembrane space (GO:0005758)	89	9	1.61	+	5.58	3.40E-05	1.29E-03
+cytosolic ribosome (GO:0022626)	119	12	2.16	+	5.56	1.75E-06	9.82E-05
+catalytic step 2 spliceosome (GO:0071013)	90	9	1.63	+	5.52	3.72E-05	1.39E-03
+organellar ribosome (GO:0000313)	86	8	1.56	+	5.13	1.67E-04	5.63E-03
+mitochondrial ribosome (GO:0005761)	86	8	1.56	+	5.13	1.67E-04	5.54E-03
+organelle envelope lumen (GO:0031970)	100	9	1.81	+	4.97	8.54E-05	3.08E-03
+spliceosomal snRNP complex (GO:0097525)	67	6	1.21	+	4.94	1.34E-03	3.34E-02
+transcription repressor complex (GO:0017053)	81	7	1.47	+	4.77	6.68E-04	1.80E-02
+small-subunit processome (GO:0032040)	73	6	1.32	+	4.53	2.09E-03	4.90E-02
+cytoplasmic stress granule (GO:0010494)	98	8	1.78	+	4.50	4.11E-04	1.19E-02
+ribonucleoprotein complex (GO:1990904)	689	55	12.49	+	4.40	1.49E-20	2.00E-18
+mitochondrial protein-containing complex (GO:0098798)	177	14	3.21	+	4.36	4.50E-06	2.02E-04
+nucleosome (GO:0000786)	102	8	1.85	+	4.33	5.39E-04	1.49E-02
+U2-type spliceosomal complex (GO:0005684)	95	7	1.72	+	4.07	1.71E-03	4.16E-02
+spliceosomal complex (GO:0005681)	208	15	3.77	+	3.98	6.41E-06	2.81E-04
+nuclear ribonucleoprotein granule (GO:0140168)	484	33	8.77	+	3.76	7.64E-11	5.71E-09
+chromosome, telomeric region (GO:0000781)	162	11	2.94	+	3.75	1.86E-04	6.07E-03
+nuclear speck (GO:0016607)	430	29	7.79	+	3.72	1.45E-09	9.15E-08
+protein-DNA complex (GO:0032993)	209	14	3.79	+	3.70	2.97E-05	1.18E-03
+ribonucleoprotein granule (GO:0035770)	731	43	13.25	+	3.25	1.15E-11	9.25E-10
+nuclear body (GO:0016604)	889	52	16.11	+	3.23	7.83E-14	7.18E-12
+nucleolus (GO:0005730)	1059	60	19.19	+	3.13	3.04E-15	3.07E-13
+cytoplasmic ribonucleoprotein granule (GO:0036464)	266	15	4.82	+	3.11	1.12E-04	3.95E-03
+condensed chromosome (GO:0000793)	288	15	5.22	+	2.87	2.65E-04	8.36E-03
+mitochondrial matrix (GO:0005759)	541	27	9.81	+	2.75	2.30E-06	1.16E-04
+chromosomal region (GO:0098687)	398	18	7.21	+	2.50	3.78E-04	1.12E-02
+focal adhesion (GO:0005925)	423	19	7.67	+	2.48	2.86E-04	8.60E-03
+extracellular exosome (GO:0070062)	2102	94	38.10	+	2.47	5.79E-17	7.31E-15
+extracellular vesicle (GO:1903561)	2131	94	38.62	+	2.43	1.94E-16	2.30E-14
+extracellular organelle (GO:0043230)	2132	94	38.64	+	2.43	1.97E-16	2.21E-14
+extracellular membrane-bounded organelle (GO:0065010)	2132	94	38.64	+	2.43	1.97E-16	2.09E-14
+cell-substrate junction (GO:0030055)	433	19	7.85	+	2.42	3.82E-04	1.12E-02
+supramolecular complex (GO:0099080)	1899	78	34.42	+	2.27	5.55E-12	4.87E-10
+nuclear lumen (GO:0031981)	4648	179	84.24	+	2.12	2.37E-27	9.58E-25
+nucleoplasm (GO:0005654)	4258	162	77.17	+	2.10	1.58E-23	2.90E-21
+polymeric cytoskeletal fiber (GO:0099513)	826	31	14.97	+	2.07	1.42E-04	4.86E-03
+organelle inner membrane (GO:0019866)	563	21	10.20	+	2.06	1.89E-03	4.53E-02
+organelle lumen (GO:0043233)	5831	217	105.68	+	2.05	7.11E-34	1.43E-30
+intracellular organelle lumen (GO:0070013)	5831	217	105.68	+	2.05	7.11E-34	7.17E-31
+membrane-enclosed lumen (GO:0031974)	5831	217	105.68	+	2.05	7.11E-34	4.78E-31
+mitochondrial envelope (GO:0005740)	837	30	15.17	+	1.98	4.56E-04	1.30E-02
+organelle envelope (GO:0031967)	1320	47	23.92	+	1.96	9.01E-06	3.79E-04
+intracellular membraneless organelle (GO:0043232)	5875	203	106.48	+	1.91	5.27E-26	1.33E-23
+membraneless organelle (GO:0043228)	5876	203	106.50	+	1.91	5.35E-26	1.20E-23
+nuclear protein-containing complex (GO:0140513)	1292	44	23.42	+	1.88	5.43E-05	1.99E-03
+mitochondrion (GO:0005739)	1839	62	33.33	+	1.86	2.14E-06	1.14E-04
+cytosol (GO:0005829)	5617	186	101.80	+	1.83	1.31E-20	1.89E-18
+chromosome (GO:0005694)	2006	66	36.36	+	1.82	2.23E-06	1.15E-04
+extracellular space (GO:0005615)	3225	105	58.45	+	1.80	6.09E-10	4.24E-08
+nucleus (GO:0005634)	7765	234	140.74	+	1.66	9.80E-23	1.65E-20
+protein-containing complex (GO:0032991)	5972	167	108.24	+	1.54	7.56E-11	5.87E-09
+vesicle (GO:0031982)	4083	112	74.00	+	1.51	2.09E-06	1.14E-04
+extracellular region (GO:0005576)	4287	115	77.70	+	1.48	4.40E-06	2.02E-04
+cytoskeleton (GO:0005856)	2568	68	46.54	+	1.46	1.15E-03	2.91E-02
+intracellular membrane-bounded organelle (GO:0043231)	12348	309	223.80	+	1.38	9.82E-22	1.52E-19
+intracellular organelle (GO:0043229)	13467	334	244.08	+	1.37	3.60E-27	1.21E-24
+membrane-bounded organelle (GO:0043227)	13453	328	243.83	+	1.35	1.41E-23	2.85E-21
+organelle (GO:0043226)	14290	344	259.00	+	1.33	5.62E-27	1.62E-24
+cytoplasm (GO:0005737)	12419	294	225.09	+	1.31	2.38E-14	2.29E-12
+intracellular anatomical structure (GO:0005622)	15126	354	274.15	+	1.29	1.41E-27	7.13E-25
+cellular_component (GO:0005575)	18952	365	343.49	+	1.06	2.45E-06	1.21E-04
+cellular anatomical structure (GO:0110165)	18867	363	341.95	+	1.06	1.05E-05	4.32E-04
+cell periphery (GO:0071944)	6541	66	118.55	-	.56	6.95E-10	4.67E-08
+plasma membrane (GO:0005886)	6087	60	110.32	-	.54	1.37E-09	8.92E-08
+Unclassified (UNCLASSIFIED)	1628	8	29.51	-	.27	2.45E-06	1.18E-04
