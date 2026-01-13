@@ -16,7 +16,7 @@ local({
 
   # Fold enrichment threshold for filtering GO terms
   # Only terms with fold enrichment >= this value will be included
-  fold_enrichment_threshold = 10,
+  fold_enrichment_threshold = 0,
 
   # Number of top GO terms to display in visualizations
   # Terms are ranked by p-value significance
