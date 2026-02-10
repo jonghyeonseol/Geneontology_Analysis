@@ -73,8 +73,7 @@ create_dotplot <- function(data, title) {
         GO_Term_Display = sapply(GO_Term, process_label,
                                   method = label_method,
                                   max_len = max_label_length,
-                                  wrap_width = label_wrap_width),
-        GO_Term_Display = factor(GO_Term_Display, levels = GO_Term_Display)
+                                  wrap_width = label_wrap_width)
       )
   } else {
     plot_data <- data %>%
@@ -84,10 +83,20 @@ create_dotplot <- function(data, title) {
         GO_Term_Display = sapply(GO_Term, process_label,
                                   method = label_method,
                                   max_len = max_label_length,
-                                  wrap_width = label_wrap_width),
-        GO_Term_Display = factor(GO_Term_Display, levels = GO_Term_Display)
+                                  wrap_width = label_wrap_width)
       )
   }
+
+  # Handle duplicate display labels by appending GO_ID
+  plot_data <- plot_data %>%
+    dplyr::mutate(
+      GO_Term_Display = dplyr::case_when(
+        duplicated(GO_Term_Display) | duplicated(GO_Term_Display, fromLast = TRUE) ~
+          paste0(GO_Term_Display, " (", GO_ID, ")"),
+        TRUE ~ GO_Term_Display
+      ),
+      GO_Term_Display = factor(GO_Term_Display, levels = unique(GO_Term_Display))
+    )
 
   p <- ggplot2::ggplot(plot_data, ggplot2::aes(x = Gene_Ratio, y = GO_Term_Display)) +
     ggplot2::geom_point(ggplot2::aes(size = Count, color = neg_log10_pvalue)) +
