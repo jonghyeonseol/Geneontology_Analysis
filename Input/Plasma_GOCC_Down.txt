@@ -1,0 +1,58 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.XXXX/zenodo.XXXXXXXX Released 2025-10-05
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Homo sapiens - REFLIST (20580)	upload_1 (53)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+UBC13-MMS2 complex (GO:0031372)	3	2	.01	+	 > 100	1.95E-05	1.34E-03
+haptoglobin-hemoglobin complex (GO:0031838)	10	3	.03	+	 > 100	1.91E-06	2.07E-04
+hemoglobin complex (GO:0005833)	11	3	.03	+	 > 100	2.62E-06	2.57E-04
+Lewy body (GO:0097413)	12	3	.03	+	97.08	3.49E-06	3.12E-04
+unconventional myosin complex (GO:0016461)	8	2	.02	+	97.08	1.80E-04	1.00E-02
+ubiquitin conjugating enzyme complex (GO:0031371)	9	2	.02	+	86.29	2.32E-04	1.19E-02
+Arp2/3 protein complex (GO:0005885)	10	2	.03	+	77.66	2.89E-04	1.42E-02
+endocytic vesicle lumen (GO:0071682)	22	3	.06	+	52.95	2.40E-05	1.59E-03
+platelet alpha granule membrane (GO:0031092)	17	2	.04	+	45.68	8.63E-04	3.86E-02
+platelet alpha granule (GO:0031091)	91	6	.23	+	25.60	1.23E-07	1.81E-05
+platelet alpha granule lumen (GO:0031093)	67	4	.17	+	23.18	2.66E-05	1.71E-03
+inclusion body (GO:0016234)	54	3	.14	+	21.57	3.65E-04	1.74E-02
+ficolin-1-rich granule lumen (GO:1904813)	125	5	.32	+	15.53	1.73E-05	1.23E-03
+melanosome (GO:0042470)	112	4	.29	+	13.87	1.98E-04	1.07E-02
+pigment granule (GO:0048770)	112	4	.29	+	13.87	1.98E-04	1.05E-02
+blood microparticle (GO:0072562)	144	5	.37	+	13.48	3.43E-05	2.14E-03
+ficolin-1-rich granule (GO:0101002)	186	6	.48	+	12.53	8.11E-06	6.18E-04
+secretory granule lumen (GO:0034774)	326	9	.84	+	10.72	1.35E-07	1.85E-05
+cytoplasmic vesicle lumen (GO:0060205)	331	9	.85	+	10.56	1.54E-07	1.98E-05
+vesicle lumen (GO:0031983)	332	9	.86	+	10.53	1.58E-07	1.91E-05
+cell-substrate junction (GO:0030055)	414	11	1.07	+	10.32	6.83E-09	1.28E-06
+focal adhesion (GO:0005925)	404	10	1.04	+	9.61	6.99E-08	1.20E-05
+extracellular exosome (GO:0070062)	2102	38	5.41	+	7.02	2.20E-26	4.53E-23
+actin cytoskeleton (GO:0015629)	502	9	1.29	+	6.96	4.86E-06	3.84E-04
+extracellular organelle (GO:0043230)	2132	38	5.49	+	6.92	3.70E-26	3.81E-23
+extracellular vesicle (GO:1903561)	2132	38	5.49	+	6.92	3.70E-26	2.54E-23
+extracellular membrane-bounded organelle (GO:0065010)	2132	38	5.49	+	6.92	3.70E-26	1.90E-23
+secretory granule (GO:0030141)	921	15	2.37	+	6.32	6.55E-09	1.35E-06
+anchoring junction (GO:0070161)	883	12	2.27	+	5.28	1.90E-06	2.17E-04
+secretory vesicle (GO:0099503)	1124	15	2.89	+	5.18	9.20E-08	1.46E-05
+extracellular space (GO:0005615)	3247	41	8.36	+	4.90	3.90E-23	1.61E-20
+vesicle (GO:0031982)	4074	42	10.49	+	4.00	1.77E-20	5.20E-18
+extracellular region (GO:0005576)	4253	43	10.95	+	3.93	6.34E-21	2.17E-18
+cytosol (GO:0005829)	5145	45	13.25	+	3.40	6.69E-20	1.72E-17
+cytoplasmic vesicle (GO:0031410)	2614	20	6.73	+	2.97	3.39E-06	3.17E-04
+intracellular vesicle (GO:0097708)	2622	20	6.75	+	2.96	3.56E-06	3.05E-04
+cytoskeleton (GO:0005856)	2277	15	5.86	+	2.56	4.55E-04	2.13E-02
+cell junction (GO:0030054)	2398	15	6.18	+	2.43	7.88E-04	3.60E-02
+organelle lumen (GO:0043233)	5451	27	14.04	+	1.92	1.41E-04	8.54E-03
+intracellular organelle lumen (GO:0070013)	5451	27	14.04	+	1.92	1.41E-04	8.29E-03
+membrane-enclosed lumen (GO:0031974)	5451	27	14.04	+	1.92	1.41E-04	8.06E-03
+protein-containing complex (GO:0032991)	6316	29	16.27	+	1.78	2.82E-04	1.41E-02
+cytoplasm (GO:0005737)	11932	52	30.73	+	1.69	1.25E-11	2.86E-09
+membrane-bounded organelle (GO:0043227)	13314	49	34.29	+	1.43	4.13E-06	3.40E-04
+organelle (GO:0043226)	14194	50	36.55	+	1.37	9.37E-06	6.89E-04
+intracellular anatomical structure (GO:0005622)	15076	52	38.83	+	1.34	2.47E-06	2.54E-04
