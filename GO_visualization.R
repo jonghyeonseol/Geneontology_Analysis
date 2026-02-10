@@ -117,7 +117,7 @@ read_go_results <- function(file_path) {
   }
 
   # Filter by Fold Enrichment threshold
-  fold_threshold <- get_config("fold_enrichment_threshold", 10)
+  fold_threshold <- get_config("fold_enrichment_threshold", 0)
   data <- data[data$Fold_Enrichment >= fold_threshold, ]
 
   if (nrow(data) == 0) {
