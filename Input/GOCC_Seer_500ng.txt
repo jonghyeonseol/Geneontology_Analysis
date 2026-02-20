@@ -1,0 +1,109 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.XXXX/zenodo.XXXXXXXX Released 2025-10-05
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Homo sapiens - REFLIST (20580)	upload_1 (403)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+signal recognition particle (GO:0048500)	6	3	.12	+	25.53	1.43E-04	4.32E-03
+signal recognition particle, endoplasmic reticulum targeting (GO:0005786)	6	3	.12	+	25.53	1.43E-04	4.25E-03
+signal recognition particle receptor complex (GO:0005785)	4	2	.08	+	25.53	2.24E-03	4.84E-02
+B-WICH complex (GO:0110016)	8	3	.16	+	19.15	3.88E-04	9.50E-03
+U2 snRNP (GO:0005686)	27	8	.53	+	15.13	3.23E-08	2.08E-06
+U1 snRNP (GO:0005685)	19	5	.37	+	13.44	2.60E-05	9.92E-04
+U2-type precatalytic spliceosome (GO:0071005)	50	12	.98	+	12.26	1.68E-10	1.81E-08
+U11/U12 snRNP (GO:0034693)	21	5	.41	+	12.16	4.41E-05	1.51E-03
+post-spliceosomal complex (GO:0071020)	39	9	.76	+	11.78	4.88E-08	3.04E-06
+U2-type catalytic step 2 spliceosome (GO:0071007)	40	9	.78	+	11.49	6.19E-08	3.74E-06
+prespliceosome (GO:0071010)	18	4	.35	+	11.35	3.57E-04	9.17E-03
+U2-type prespliceosome (GO:0071004)	18	4	.35	+	11.35	3.57E-04	9.05E-03
+U12-type precatalytic spliceosome (GO:0071016)	35	7	.69	+	10.21	4.39E-06	2.01E-04
+U4/U6 snRNP (GO:0071001)	20	4	.39	+	10.21	5.47E-04	1.29E-02
+spliceosomal snRNP complex (GO:0097525)	76	15	1.49	+	10.08	1.76E-11	2.79E-09
+catalytic step 1 spliceosome (GO:0071012)	67	13	1.31	+	9.91	5.00E-10	4.90E-08
+U2-type catalytic step 1 spliceosome (GO:0071006)	67	13	1.31	+	9.91	5.00E-10	4.68E-08
+U5 snRNP (GO:0005682)	21	4	.41	+	9.73	6.66E-04	1.54E-02
+precatalytic spliceosome (GO:0071011)	70	13	1.37	+	9.48	8.87E-10	6.52E-08
+U4atac/U6atac x U5 tri-snRNP complex (GO:0071009)	28	5	.55	+	9.12	1.90E-04	5.36E-03
+small nuclear ribonucleoprotein complex (GO:0030532)	85	15	1.66	+	9.01	9.52E-11	1.15E-08
+U4/U6 x U5 tri-snRNP complex (GO:0046540)	35	6	.69	+	8.75	5.45E-05	1.84E-03
+post-mRNA release spliceosomal complex (GO:0071014)	35	6	.69	+	8.75	5.45E-05	1.81E-03
+rough endoplasmic reticulum membrane (GO:0030867)	30	5	.59	+	8.51	2.67E-04	7.24E-03
+Sm-like protein family complex (GO:0120114)	97	16	1.90	+	8.42	6.49E-11	9.54E-09
+U2-type spliceosomal complex (GO:0005684)	111	18	2.17	+	8.28	5.54E-12	9.49E-10
+spliceosomal tri-snRNP complex (GO:0097526)	37	6	.72	+	8.28	7.55E-05	2.43E-03
+nuclear periphery (GO:0034399)	31	5	.61	+	8.24	3.14E-04	8.17E-03
+U12-type catalytic step 2 spliceosome (GO:0071018)	38	6	.74	+	8.06	8.82E-05	2.75E-03
+cytosolic large ribosomal subunit (GO:0022625)	58	9	1.14	+	7.92	1.77E-06	9.08E-05
+rough endoplasmic reticulum (GO:0005791)	62	9	1.21	+	7.41	3.14E-06	1.50E-04
+catalytic step 2 spliceosome (GO:0071013)	108	15	2.11	+	7.09	3.08E-09	2.11E-07
+cytosolic ribosome (GO:0022626)	122	14	2.39	+	5.86	1.22E-07	7.18E-06
+U12-type spliceosomal complex (GO:0005689)	62	7	1.21	+	5.77	2.04E-04	5.59E-03
+proteasome complex (GO:0000502)	66	7	1.29	+	5.42	3.02E-04	7.96E-03
+spliceosomal complex (GO:0005681)	219	23	4.29	+	5.36	6.53E-11	8.95E-09
+filopodium (GO:0030175)	103	9	2.02	+	4.46	1.92E-04	5.34E-03
+large ribosomal subunit (GO:0015934)	112	9	2.19	+	4.10	3.60E-04	9.04E-03
+neuromuscular junction (GO:0031594)	90	7	1.76	+	3.97	1.94E-03	4.34E-02
+ribosome (GO:0005840)	233	18	4.56	+	3.95	8.59E-07	4.53E-05
+ribonucleoprotein complex (GO:1990904)	706	50	13.82	+	3.62	3.30E-15	1.13E-12
+ribosomal subunit (GO:0044391)	184	12	3.60	+	3.33	2.86E-04	7.65E-03
+peptidase complex (GO:1905368)	161	10	3.15	+	3.17	1.31E-03	2.96E-02
+ficolin-1-rich granule (GO:0101002)	186	11	3.64	+	3.02	1.14E-03	2.60E-02
+secretory granule lumen (GO:0034774)	326	19	6.38	+	2.98	2.58E-05	1.00E-03
+cytoplasmic vesicle lumen (GO:0060205)	331	19	6.48	+	2.93	3.18E-05	1.17E-03
+vesicle lumen (GO:0031983)	332	19	6.50	+	2.92	3.31E-05	1.20E-03
+adherens junction (GO:0005912)	199	11	3.90	+	2.82	1.95E-03	4.32E-02
+focal adhesion (GO:0005925)	404	22	7.91	+	2.78	1.74E-05	7.14E-04
+nuclear envelope (GO:0005635)	462	25	9.05	+	2.76	5.19E-06	2.32E-04
+cell-substrate junction (GO:0030055)	414	22	8.11	+	2.71	2.52E-05	9.97E-04
+nuclear speck (GO:0016607)	404	19	7.91	+	2.40	4.22E-04	1.01E-02
+nuclear ribonucleoprotein granule (GO:0140168)	457	21	8.95	+	2.35	3.98E-04	9.63E-03
+anchoring junction (GO:0070161)	883	38	17.29	+	2.20	8.39E-06	3.67E-04
+nucleolus (GO:0005730)	878	37	17.19	+	2.15	1.45E-05	6.07E-04
+secretory granule (GO:0030141)	921	37	18.04	+	2.05	4.16E-05	1.45E-03
+nuclear protein-containing complex (GO:0140513)	1413	56	27.67	+	2.02	4.27E-07	2.31E-05
+extracellular exosome (GO:0070062)	2102	83	41.16	+	2.02	3.91E-10	4.02E-08
+cell-cell junction (GO:0005911)	534	21	10.46	+	2.01	2.35E-03	4.98E-02
+ribonucleoprotein granule (GO:0035770)	690	27	13.51	+	2.00	6.57E-04	1.54E-02
+extracellular organelle (GO:0043230)	2132	83	41.75	+	1.99	8.40E-10	6.91E-08
+extracellular vesicle (GO:1903561)	2132	83	41.75	+	1.99	8.40E-10	6.64E-08
+extracellular membrane-bounded organelle (GO:0065010)	2132	83	41.75	+	1.99	8.40E-10	6.40E-08
+cytosol (GO:0005829)	5145	192	100.75	+	1.91	4.27E-23	4.39E-20
+secretory vesicle (GO:0099503)	1124	41	22.01	+	1.86	1.35E-04	4.16E-03
+organelle envelope (GO:0031967)	1271	46	24.89	+	1.85	5.79E-05	1.89E-03
+nuclear body (GO:0016604)	786	28	15.39	+	1.82	2.28E-03	4.89E-02
+vesicle (GO:0031982)	4074	135	79.78	+	1.69	7.01E-11	9.01E-09
+catalytic complex (GO:1902494)	2016	66	39.48	+	1.67	2.93E-05	1.10E-03
+endoplasmic reticulum (GO:0005783)	2102	68	41.16	+	1.65	4.00E-05	1.42E-03
+organelle lumen (GO:0043233)	5451	173	106.74	+	1.62	8.10E-13	1.85E-10
+intracellular organelle lumen (GO:0070013)	5451	173	106.74	+	1.62	8.10E-13	1.67E-10
+membrane-enclosed lumen (GO:0031974)	5451	173	106.74	+	1.62	8.10E-13	1.52E-10
+extracellular space (GO:0005615)	3247	103	63.58	+	1.62	3.71E-07	2.06E-05
+cell junction (GO:0030054)	2398	74	46.96	+	1.58	7.83E-05	2.48E-03
+endomembrane system (GO:0012505)	4802	148	94.03	+	1.57	1.31E-09	9.29E-08
+nuclear lumen (GO:0031981)	4156	125	81.38	+	1.54	2.25E-07	1.29E-05
+cytoplasmic vesicle (GO:0031410)	2614	78	51.19	+	1.52	1.44E-04	4.23E-03
+mitochondrion (GO:0005739)	1777	53	34.80	+	1.52	2.19E-03	4.79E-02
+intracellular vesicle (GO:0097708)	2622	78	51.34	+	1.52	1.48E-04	4.29E-03
+nucleoplasm (GO:0005654)	3828	110	74.96	+	1.47	1.77E-05	7.16E-04
+protein-containing complex (GO:0032991)	6316	179	123.68	+	1.45	5.70E-09	3.78E-07
+extracellular region (GO:0005576)	4253	120	83.28	+	1.44	1.24E-05	5.33E-04
+cytoplasm (GO:0005737)	11932	334	233.65	+	1.43	5.55E-27	1.14E-23
+intracellular membraneless organelle (GO:0043232)	5569	152	109.05	+	1.39	2.39E-06	1.20E-04
+membraneless organelle (GO:0043228)	5570	152	109.07	+	1.39	2.40E-06	1.17E-04
+organelle membrane (GO:0031090)	3855	104	75.49	+	1.38	3.80E-04	9.41E-03
+nucleus (GO:0005634)	7289	188	142.73	+	1.32	3.34E-06	1.56E-04
+intracellular membrane-bounded organelle (GO:0043231)	12186	311	238.63	+	1.30	1.87E-14	5.51E-12
+membrane-bounded organelle (GO:0043227)	13314	334	260.72	+	1.28	4.91E-16	2.02E-13
+intracellular anatomical structure (GO:0005622)	15076	371	295.22	+	1.26	8.72E-22	5.98E-19
+intracellular organelle (GO:0043229)	13340	328	261.23	+	1.26	1.96E-13	5.03E-11
+organelle (GO:0043226)	14194	348	277.95	+	1.25	3.36E-16	1.73E-13
+membrane (GO:0016020)	9691	227	189.77	+	1.20	1.87E-04	5.34E-03
+cellular anatomical structure (GO:0110165)	18894	399	369.98	+	1.08	1.50E-10	1.72E-08
+cellular_component (GO:0005575)	18986	399	371.79	+	1.07	6.83E-10	6.11E-08
+Unclassified (UNCLASSIFIED)	1594	4	31.21	-	.13	6.83E-10	5.86E-08

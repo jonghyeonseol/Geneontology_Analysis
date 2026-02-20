@@ -1,0 +1,129 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.XXXX/zenodo.XXXXXXXX Released 2025-10-05
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO biological process complete	Homo sapiens - REFLIST (20580)	upload_1 (403)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+viral RNA genome packaging (GO:0019074)	2	2	.04	+	51.07	3.83E-04	4.96E-02
+viral genome packaging (GO:0019072)	2	2	.04	+	51.07	3.83E-04	4.92E-02
+isoleucyl-tRNA aminoacylation (GO:0006428)	2	2	.04	+	51.07	3.83E-04	4.88E-02
+regulation of Fc-gamma receptor signaling pathway involved in phagocytosis (GO:1905449)	2	2	.04	+	51.07	3.83E-04	4.83E-02
+positive regulation of macropinocytosis (GO:1905303)	2	2	.04	+	51.07	3.83E-04	4.79E-02
+SRP-dependent cotranslational protein targeting to membrane, signal sequence recognition (GO:0006617)	8	5	.16	+	31.92	1.50E-07	6.60E-05
+positive regulation of cell-cell adhesion mediated by integrin (GO:0033634)	7	4	.14	+	29.18	4.84E-06	1.28E-03
+regulation of cell-cell adhesion mediated by integrin (GO:0033632)	12	6	.23	+	25.53	4.54E-08	2.28E-05
+regulation of translation at synapse, modulating synaptic transmission (GO:0099547)	6	3	.12	+	25.53	1.43E-04	2.28E-02
+regulation of translation at synapse (GO:0140243)	7	3	.14	+	21.89	2.46E-04	3.51E-02
+adiponectin-activated signaling pathway (GO:0033211)	8	3	.16	+	19.15	3.88E-04	4.82E-02
+U2-type prespliceosome assembly (GO:1903241)	25	8	.49	+	16.34	1.63E-08	9.48E-06
+SRP-dependent cotranslational protein targeting to membrane (GO:0006614)	18	5	.35	+	14.19	1.95E-05	4.57E-03
+locomotory exploration behavior (GO:0035641)	17	4	.33	+	12.02	2.82E-04	3.94E-02
+regulation of nuclear-transcribed mRNA catabolic process, nonsense-mediated decay (GO:2000622)	18	4	.35	+	11.35	3.57E-04	4.71E-02
+cotranslational protein targeting to membrane (GO:0006613)	23	5	.45	+	11.10	7.06E-05	1.33E-02
+spliceosomal snRNP assembly (GO:0000387)	70	15	1.37	+	10.94	4.99E-12	1.21E-08
+spliceosomal tri-snRNP complex assembly (GO:0000244)	38	8	.74	+	10.75	5.90E-07	2.09E-04
+spliceosome conformational change to release U4 (or U4atac) and U1 (or U11) (GO:0000388)	35	7	.69	+	10.21	4.39E-06	1.20E-03
+nucleobase metabolic process (GO:0009112)	35	7	.69	+	10.21	4.39E-06	1.18E-03
+GMP metabolic process (GO:0046037)	26	5	.51	+	9.82	1.32E-04	2.17E-02
+negative regulation of myoblast fusion (GO:1901740)	48	9	.94	+	9.58	3.31E-07	1.33E-04
+negative regulation of syncytium formation by plasma membrane fusion (GO:0034242)	49	9	.96	+	9.38	3.98E-07	1.52E-04
+spliceosomal conformational changes to generate catalytic conformation (GO:0000393)	39	7	.76	+	9.17	9.39E-06	2.44E-03
+mRNA cis splicing, via spliceosome (GO:0045292)	28	5	.55	+	9.12	1.90E-04	2.82E-02
+regulation of myoblast fusion (GO:1901739)	64	10	1.25	+	7.98	4.38E-07	1.63E-04
+protein targeting to ER (GO:0045047)	40	6	.78	+	7.66	1.19E-04	2.01E-02
+L-amino acid biosynthetic process (GO:0170034)	47	7	.92	+	7.61	3.35E-05	7.28E-03
+alpha-amino acid biosynthetic process (GO:1901607)	61	9	1.19	+	7.53	2.73E-06	7.94E-04
+spliceosomal complex assembly (GO:0000245)	78	11	1.53	+	7.20	3.40E-07	1.34E-04
+regulation of syncytium formation by plasma membrane fusion (GO:0060142)	72	10	1.41	+	7.09	1.35E-06	4.17E-04
+establishment of protein localization to endoplasmic reticulum (GO:0072599)	44	6	.86	+	6.96	2.04E-04	3.00E-02
+proteinogenic amino acid biosynthetic process (GO:0170038)	52	7	1.02	+	6.87	6.56E-05	1.27E-02
+amino acid biosynthetic process (GO:0008652)	71	9	1.39	+	6.47	9.87E-06	2.52E-03
+regulation of cell adhesion mediated by integrin (GO:0033628)	49	6	.96	+	6.25	3.73E-04	4.88E-02
+cytoplasmic translation (GO:0002181)	136	16	2.66	+	6.01	1.07E-08	7.39E-06
+regulation of viral life cycle (GO:1903900)	112	10	2.19	+	4.56	7.11E-05	1.33E-02
+mRNA splicing, via spliceosome (GO:0000398)	272	24	5.33	+	4.51	9.19E-10	1.11E-06
+RNA splicing, via transesterification reactions with bulged adenosine as nucleophile (GO:0000377)	272	24	5.33	+	4.51	9.19E-10	1.03E-06
+osteoblast differentiation (GO:0001649)	137	12	2.68	+	4.47	1.66E-05	4.02E-03
+RNA splicing, via transesterification reactions (GO:0000375)	277	24	5.42	+	4.42	1.33E-09	1.20E-06
+protein-RNA complex organization (GO:0071826)	238	20	4.66	+	4.29	5.34E-08	2.59E-05
+protein-RNA complex assembly (GO:0022618)	229	19	4.48	+	4.24	1.41E-07	6.39E-05
+proteinogenic amino acid metabolic process (GO:0170039)	167	13	3.27	+	3.98	2.64E-05	5.90E-03
+L-amino acid metabolic process (GO:0170033)	171	13	3.35	+	3.88	3.38E-05	7.23E-03
+male sex differentiation (GO:0046661)	166	12	3.25	+	3.69	1.09E-04	1.87E-02
+ribonucleoprotein complex biogenesis (GO:0022613)	485	35	9.50	+	3.69	3.55E-11	5.74E-08
+amino acid metabolic process (GO:0006520)	284	20	5.56	+	3.60	9.20E-07	2.97E-04
+striated muscle contraction (GO:0006941)	173	12	3.39	+	3.54	1.62E-04	2.45E-02
+RNA splicing (GO:0008380)	392	27	7.68	+	3.52	1.79E-08	9.64E-06
+RNA localization (GO:0006403)	189	13	3.70	+	3.51	9.48E-05	1.66E-02
+alpha-amino acid metabolic process (GO:1901605)	204	14	3.99	+	3.50	5.27E-05	1.04E-02
+response to ketone (GO:1901654)	218	14	4.27	+	3.28	1.07E-04	1.86E-02
+nucleotide biosynthetic process (GO:0009165)	212	13	4.15	+	3.13	2.95E-04	4.05E-02
+mRNA processing (GO:0006397)	479	29	9.38	+	3.09	8.82E-08	4.13E-05
+protein biosynthetic process (GO:0160307)	394	23	7.72	+	2.98	3.59E-06	1.02E-03
+translation (GO:0006412)	394	23	7.72	+	2.98	3.59E-06	1.00E-03
+response to steroid hormone (GO:0048545)	279	16	5.46	+	2.93	1.34E-04	2.19E-02
+nucleoside phosphate biosynthetic process (GO:1901293)	297	17	5.82	+	2.92	8.52E-05	1.51E-02
+mRNA metabolic process (GO:0016071)	643	36	12.59	+	2.86	1.76E-08	9.83E-06
+ribosome biogenesis (GO:0042254)	322	18	6.31	+	2.85	7.19E-05	1.32E-02
+ossification (GO:0001503)	272	15	5.33	+	2.82	3.28E-04	4.41E-02
+establishment of protein localization to organelle (GO:0072594)	352	19	6.89	+	2.76	7.27E-05	1.32E-02
+negative regulation of cellular component organization (GO:0051129)	753	40	14.75	+	2.71	1.18E-08	7.78E-06
+Golgi vesicle transport (GO:0048193)	303	16	5.93	+	2.70	3.40E-04	4.53E-02
+RNA processing (GO:0006396)	904	41	17.70	+	2.32	7.83E-07	2.65E-04
+protein-containing complex assembly (GO:0065003)	1337	59	26.18	+	2.25	4.30E-09	3.47E-06
+protein-containing complex organization (GO:0043933)	1493	65	29.24	+	2.22	1.20E-09	1.24E-06
+carboxylic acid metabolic process (GO:0019752)	797	34	15.61	+	2.18	2.12E-05	4.90E-03
+nucleobase-containing compound biosynthetic process (GO:0034654)	1736	73	33.99	+	2.15	5.13E-10	6.77E-07
+RNA metabolic process (GO:0016070)	1523	64	29.82	+	2.15	6.39E-09	4.89E-06
+oxoacid metabolic process (GO:0043436)	818	34	16.02	+	2.12	4.38E-05	8.97E-03
+organic acid metabolic process (GO:0006082)	827	34	16.19	+	2.10	5.02E-05	9.99E-03
+nucleic acid biosynthetic process (GO:0141187)	1439	57	28.18	+	2.02	3.26E-07	1.40E-04
+nucleobase-containing compound metabolic process (GO:0006139)	2745	108	53.75	+	2.01	4.05E-13	1.18E-09
+establishment of protein localization (GO:0045184)	1324	52	25.93	+	2.01	1.61E-06	4.87E-04
+RNA biosynthetic process (GO:0032774)	1350	53	26.44	+	2.00	1.23E-06	3.87E-04
+response to hormone (GO:0009725)	820	32	16.06	+	1.99	2.43E-04	3.50E-02
+response to lipid (GO:0033993)	875	34	17.13	+	1.98	1.47E-04	2.30E-02
+biosynthetic process (GO:0009058)	4033	156	78.97	+	1.98	3.23E-19	2.35E-15
+nucleic acid metabolic process (GO:0090304)	2180	84	42.69	+	1.97	1.21E-09	1.17E-06
+small molecule metabolic process (GO:0044281)	1549	59	30.33	+	1.95	7.92E-07	2.62E-04
+gene expression (GO:0010467)	2582	98	50.56	+	1.94	8.20E-11	1.19E-07
+carbohydrate derivative metabolic process (GO:1901135)	899	34	17.60	+	1.93	2.84E-04	3.93E-02
+cellular response to endogenous stimulus (GO:0071495)	937	35	18.35	+	1.91	2.50E-04	3.53E-02
+response to endogenous stimulus (GO:0009719)	1206	45	23.62	+	1.91	3.58E-05	7.55E-03
+cellular component biogenesis (GO:0044085)	2822	105	55.26	+	1.90	3.51E-11	6.37E-08
+response to nitrogen compound (GO:1901698)	1024	38	20.05	+	1.90	1.72E-04	2.57E-02
+protein transport (GO:0015031)	1105	41	21.64	+	1.89	8.02E-05	1.44E-02
+macromolecule biosynthetic process (GO:0009059)	2970	109	58.16	+	1.87	3.46E-11	7.19E-08
+intracellular transport (GO:0046907)	1276	45	24.99	+	1.80	1.43E-04	2.26E-02
+cellular component assembly (GO:0022607)	2575	90	50.42	+	1.78	3.01E-08	1.56E-05
+catabolic process (GO:0009056)	2121	73	41.53	+	1.76	1.83E-06	5.41E-04
+cellular response to stress (GO:0033554)	1685	57	33.00	+	1.73	4.64E-05	9.37E-03
+cellular response to chemical stimulus (GO:0070887)	1989	67	38.95	+	1.72	1.14E-05	2.86E-03
+cellular localization (GO:0051641)	1935	62	37.89	+	1.64	1.31E-04	2.19E-02
+intracellular protein localization (GO:0008104)	1875	60	36.72	+	1.63	1.51E-04	2.34E-02
+macromolecule localization (GO:0033036)	2316	73	45.35	+	1.61	4.26E-05	8.85E-03
+regulation of cellular component organization (GO:0051128)	2571	81	50.35	+	1.61	1.25E-05	3.08E-03
+primary metabolic process (GO:0044238)	6771	212	132.59	+	1.60	2.30E-16	1.11E-12
+metabolic process (GO:0008152)	7657	239	149.94	+	1.59	1.38E-19	2.00E-15
+macromolecule metabolic process (GO:0043170)	5431	161	106.35	+	1.51	2.19E-09	1.87E-06
+response to stress (GO:0006950)	3631	105	71.10	+	1.48	2.16E-05	4.91E-03
+cellular component organization or biogenesis (GO:0071840)	6059	173	118.65	+	1.46	7.33E-09	5.32E-06
+negative regulation of cellular process (GO:0048523)	5246	148	102.73	+	1.44	5.88E-07	2.14E-04
+negative regulation of biological process (GO:0048519)	5491	153	107.53	+	1.42	6.46E-07	2.23E-04
+cellular component organization (GO:0016043)	5846	162	114.48	+	1.42	3.28E-07	1.36E-04
+cellular process (GO:0009987)	15672	367	306.89	+	1.20	6.82E-15	2.48E-11
+biological_process (GO:0008150)	17839	384	349.33	+	1.10	1.22E-08	7.73E-06
+nervous system process (GO:0050877)	1509	12	29.55	-	.41	2.25E-04	3.27E-02
+Unclassified (UNCLASSIFIED)	2741	19	53.67	-	.35	1.22E-08	7.41E-06
+detection of chemical stimulus involved in sensory perception of smell (GO:0050911)	437	0	8.56	-	 < 0.01	3.19E-04	4.34E-02
+detection of chemical stimulus involved in sensory perception (GO:0050907)	485	0	9.50	-	 < 0.01	1.56E-04	2.39E-02
+detection of stimulus involved in sensory perception (GO:0050906)	563	0	11.02	-	 < 0.01	1.95E-05	4.64E-03
+detection of chemical stimulus (GO:0009593)	522	0	10.22	-	 < 0.01	6.93E-05	1.32E-02
+sensory perception of smell (GO:0007608)	467	0	9.14	-	 < 0.01	1.41E-04	2.28E-02
+sensory perception of chemical stimulus (GO:0007606)	548	0	10.73	-	 < 0.01	2.90E-05	6.39E-03
