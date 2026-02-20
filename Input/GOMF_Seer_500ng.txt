@@ -1,0 +1,63 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.XXXX/zenodo.XXXXXXXX Released 2025-10-05
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO molecular function complete	Homo sapiens - REFLIST (20580)	upload_1 (403)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+isoleucine-tRNA ligase activity (GO:0004822)	2	2	.04	+	51.07	3.83E-04	4.00E-02
+7S RNA binding (GO:0008312)	7	3	.14	+	21.89	2.46E-04	2.87E-02
+signal recognition particle binding (GO:0005047)	8	3	.16	+	19.15	3.88E-04	3.98E-02
+proteasome binding (GO:0070628)	18	4	.35	+	11.35	3.57E-04	3.81E-02
+snRNA binding (GO:0017069)	46	6	.90	+	6.66	2.62E-04	2.99E-02
+ribonucleoprotein complex binding (GO:0043021)	180	19	3.52	+	5.39	2.81E-09	1.80E-06
+flavin adenine dinucleotide binding (GO:0050660)	86	8	1.68	+	4.75	2.83E-04	3.15E-02
+ligase activity (GO:0016874)	167	15	3.27	+	4.59	1.08E-06	3.69E-04
+structural constituent of ribosome (GO:0003735)	168	13	3.29	+	3.95	2.81E-05	4.36E-03
+cadherin binding (GO:0045296)	325	22	6.36	+	3.46	5.14E-07	2.20E-04
+actin filament binding (GO:0051015)	208	14	4.07	+	3.44	6.51E-05	9.01E-03
+RNA binding (GO:0003723)	1692	101	33.13	+	3.05	6.79E-25	3.48E-21
+protein-containing complex binding (GO:0044877)	1291	65	25.28	+	2.57	1.88E-12	1.61E-09
+actin binding (GO:0003779)	448	22	8.77	+	2.51	8.14E-05	1.10E-02
+mRNA binding (GO:0003729)	375	18	7.34	+	2.45	4.67E-04	4.69E-02
+cell adhesion molecule binding (GO:0050839)	634	29	12.42	+	2.34	2.60E-05	4.30E-03
+oxidoreductase activity (GO:0016491)	679	31	13.30	+	2.33	1.36E-05	2.69E-03
+protein domain specific binding (GO:0019904)	645	27	12.63	+	2.14	2.25E-04	2.68E-02
+ATP binding (GO:0005524)	1478	54	28.94	+	1.87	8.92E-06	1.83E-03
+adenyl nucleotide binding (GO:0030554)	1615	58	31.63	+	1.83	8.33E-06	1.78E-03
+adenyl ribonucleotide binding (GO:0032559)	1520	54	29.76	+	1.81	1.91E-05	3.37E-03
+heterocyclic compound binding (GO:1901363)	2274	79	44.53	+	1.77	3.32E-07	1.55E-04
+nucleoside phosphate binding (GO:1901265)	2147	74	42.04	+	1.76	1.37E-06	4.40E-04
+nucleotide binding (GO:0000166)	2127	73	41.65	+	1.75	1.90E-06	5.74E-04
+purine ribonucleoside triphosphate binding (GO:0035639)	1822	62	35.68	+	1.74	1.75E-05	3.21E-03
+anion binding (GO:0043168)	2461	83	48.19	+	1.72	5.54E-07	2.18E-04
+purine nucleotide binding (GO:0017076)	1966	66	38.50	+	1.71	1.53E-05	2.90E-03
+ribonucleotide binding (GO:0032553)	1886	63	36.93	+	1.71	2.46E-05	4.20E-03
+purine ribonucleotide binding (GO:0032555)	1870	62	36.62	+	1.69	4.79E-05	7.01E-03
+carbohydrate derivative binding (GO:0097367)	2247	74	44.00	+	1.68	7.50E-06	1.92E-03
+identical protein binding (GO:0042802)	2203	68	43.14	+	1.58	1.63E-04	1.99E-02
+catalytic activity (GO:0003824)	5615	171	109.95	+	1.56	3.80E-11	2.78E-08
+hydrolase activity (GO:0016787)	2412	73	47.23	+	1.55	1.58E-04	1.97E-02
+nucleic acid binding (GO:0003676)	4006	120	78.45	+	1.53	5.96E-07	2.18E-04
+protein binding (GO:0005515)	14765	352	289.13	+	1.22	5.16E-14	8.82E-11
+binding (GO:0005488)	16764	387	328.27	+	1.18	1.22E-18	3.13E-15
+molecular_function (GO:0003674)	18351	397	359.35	+	1.10	2.60E-13	2.67E-10
+sequence-specific DNA binding (GO:0043565)	1693	14	33.15	-	.42	1.55E-04	1.98E-02
+sequence-specific double-stranded DNA binding (GO:1990837)	1580	12	30.94	-	.39	9.37E-05	1.23E-02
+transcription regulator activity (GO:0140110)	1982	14	38.81	-	.36	3.21E-06	8.67E-04
+transcription cis-regulatory region binding (GO:0000976)	1517	9	29.71	-	.30	7.52E-06	1.84E-03
+transcription regulatory region nucleic acid binding (GO:0001067)	1518	9	29.73	-	.30	7.53E-06	1.75E-03
+RNA polymerase II transcription regulatory region sequence-specific DNA binding (GO:0000977)	1365	8	26.73	-	.30	2.65E-05	4.25E-03
+RNA polymerase II cis-regulatory region sequence-specific DNA binding (GO:0000978)	1147	6	22.46	-	.27	6.10E-05	8.69E-03
+cis-regulatory region sequence-specific DNA binding (GO:0000987)	1171	6	22.93	-	.26	3.01E-05	4.54E-03
+transmembrane signaling receptor activity (GO:0004888)	1356	6	26.55	-	.23	2.06E-06	5.85E-04
+DNA-binding transcription factor activity, RNA polymerase II-specific (GO:0000981)	1344	4	26.32	-	.15	6.56E-08	3.36E-05
+DNA-binding transcription factor activity (GO:0003700)	1447	4	28.34	-	.14	9.99E-09	5.69E-06
+Unclassified (UNCLASSIFIED)	2229	6	43.65	-	.14	2.60E-13	3.33E-10
+G protein-coupled receptor activity (GO:0004930)	878	2	17.19	-	.12	8.09E-06	1.80E-03
+olfactory receptor activity (GO:0004984)	435	0	8.52	-	 < 0.01	3.16E-04	3.45E-02
