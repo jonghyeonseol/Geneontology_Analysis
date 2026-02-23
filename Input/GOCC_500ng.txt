@@ -1,0 +1,114 @@
+
+
+
+
+
+Analysis Type:	PANTHER Overrepresentation Test (Released 20240807)
+Annotation Version and Release Date:	GO Ontology database DOI:  10.XXXX/zenodo.XXXXXXXX Released 2025-10-05
+Analyzed List:	upload_1 (Homo sapiens)
+Reference List:	Homo sapiens (all genes in database)
+Test Type:	FISHER
+Correction:	FDR
+GO cellular component complete	Homo sapiens - REFLIST (20580)	upload_1 (437)	upload_1 (expected)	upload_1 (over/under)	upload_1 (fold Enrichment)	upload_1 (raw P-value)	upload_1 (FDR)
+DSIF complex (GO:0032044)	2	2	.04	+	47.09	4.50E-04	1.09E-02
+Ku70:Ku80 complex (GO:0043564)	3	2	.06	+	31.40	1.33E-03	2.88E-02
+DNA-dependent protein kinase complex (GO:0070418)	5	3	.11	+	28.26	9.21E-05	2.56E-03
+CMG complex (GO:0071162)	11	5	.23	+	21.41	1.75E-06	7.85E-05
+MCM complex (GO:0042555)	11	5	.23	+	21.41	1.75E-06	7.68E-05
+DNA-dependent protein kinase-DNA ligase 4 complex (GO:0005958)	7	3	.15	+	20.18	3.12E-04	7.83E-03
+rixosome complex (GO:0120330)	7	3	.15	+	20.18	3.12E-04	7.74E-03
+nuclear pore outer ring (GO:0031080)	10	4	.21	+	18.84	3.80E-05	1.13E-03
+DNA replication preinitiation complex (GO:0031261)	13	5	.28	+	18.11	4.72E-06	1.87E-04
+nonhomologous end joining complex (GO:0070419)	9	3	.19	+	15.70	7.26E-04	1.68E-02
+nuclear lamina (GO:0005652)	15	4	.32	+	12.56	2.27E-04	5.99E-03
+U2-type precatalytic spliceosome (GO:0071005)	50	13	1.06	+	12.24	2.60E-11	2.32E-09
+U2 snRNP (GO:0005686)	27	7	.57	+	12.21	1.14E-06	5.21E-05
+nuclear periphery (GO:0034399)	31	8	.66	+	12.15	1.99E-07	1.02E-05
+U12-type precatalytic spliceosome (GO:0071016)	35	9	.74	+	12.11	3.50E-08	2.06E-06
+preribosome, large subunit precursor (GO:0030687)	16	4	.34	+	11.77	2.98E-04	7.57E-03
+U11/U12 snRNP (GO:0034693)	21	5	.45	+	11.21	6.48E-05	1.85E-03
+prespliceosome (GO:0071010)	18	4	.38	+	10.47	4.84E-04	1.16E-02
+U2-type prespliceosome (GO:0071004)	18	4	.38	+	10.47	4.84E-04	1.15E-02
+90S preribosome (GO:0030686)	28	6	.59	+	10.09	2.24E-05	7.21E-04
+U4atac/U6atac x U5 tri-snRNP complex (GO:0071009)	28	6	.59	+	10.09	2.24E-05	7.10E-04
+respiratory chain complex I (GO:0045271)	47	10	1.00	+	10.02	4.31E-08	2.47E-06
+NADH dehydrogenase complex (GO:0030964)	47	10	1.00	+	10.02	4.31E-08	2.40E-06
+spliceosomal snRNP complex (GO:0097525)	76	16	1.61	+	9.91	4.39E-12	4.51E-10
+U4/U6 x U5 tri-snRNP complex (GO:0046540)	35	7	.74	+	9.42	7.46E-06	2.79E-04
+U4/U6 snRNP (GO:0071001)	20	4	.42	+	9.42	7.42E-04	1.70E-02
+U5 snRNP (GO:0005682)	21	4	.45	+	8.97	9.01E-04	2.01E-02
+spliceosomal tri-snRNP complex (GO:0097526)	37	7	.79	+	8.91	1.10E-05	3.97E-04
+small nuclear ribonucleoprotein complex (GO:0030532)	85	16	1.80	+	8.86	2.68E-11	2.30E-09
+precatalytic spliceosome (GO:0071011)	70	13	1.49	+	8.75	2.36E-09	1.62E-07
+Sm-like protein family complex (GO:0120114)	97	18	2.06	+	8.74	1.96E-12	2.37E-10
+U12-type catalytic step 2 spliceosome (GO:0071018)	38	7	.81	+	8.68	1.33E-05	4.70E-04
+post-spliceosomal complex (GO:0071020)	39	7	.83	+	8.45	1.59E-05	5.53E-04
+catalytic step 1 spliceosome (GO:0071012)	67	12	1.42	+	8.43	1.51E-08	9.70E-07
+U2-type catalytic step 1 spliceosome (GO:0071006)	67	12	1.42	+	8.43	1.51E-08	9.40E-07
+U2-type catalytic step 2 spliceosome (GO:0071007)	40	7	.85	+	8.24	1.89E-05	6.26E-04
+post-mRNA release spliceosomal complex (GO:0071014)	35	6	.74	+	8.07	8.53E-05	2.40E-03
+U2-type spliceosomal complex (GO:0005684)	111	19	2.36	+	8.06	2.15E-12	2.46E-10
+mitochondrial outer membrane translocase complex (GO:0005742)	24	4	.51	+	7.85	1.52E-03	3.23E-02
+U12-type spliceosomal complex (GO:0005689)	62	10	1.32	+	7.60	6.74E-07	3.23E-05
+outer mitochondrial membrane protein complex (GO:0098799)	25	4	.53	+	7.54	1.78E-03	3.74E-02
+preribosome (GO:0030684)	106	15	2.25	+	6.66	7.04E-09	4.67E-07
+small-subunit processome (GO:0032040)	74	10	1.57	+	6.36	3.59E-06	1.48E-04
+oxidoreductase complex (GO:1990204)	116	15	2.46	+	6.09	2.46E-08	1.49E-06
+nuclear pore (GO:0005643)	97	12	2.06	+	5.83	1.01E-06	4.72E-05
+catalytic step 2 spliceosome (GO:0071013)	108	13	2.29	+	5.67	4.94E-07	2.42E-05
+spliceosomal complex (GO:0005681)	219	26	4.65	+	5.59	1.33E-12	1.71E-10
+respiratory chain complex (GO:0098803)	113	12	2.40	+	5.00	5.16E-06	2.00E-04
+organelle envelope lumen (GO:0031970)	100	9	2.12	+	4.24	2.79E-04	7.18E-03
+mitochondrial intermembrane space (GO:0005758)	89	8	1.89	+	4.23	6.10E-04	1.43E-02
+chromosome, telomeric region (GO:0000781)	162	14	3.44	+	4.07	9.77E-06	3.59E-04
+ribonucleoprotein complex (GO:1990904)	706	60	14.99	+	4.00	3.27E-20	1.12E-17
+mitochondrial protein-containing complex (GO:0098798)	182	13	3.86	+	3.36	1.45E-04	3.97E-03
+organelle inner membrane (GO:0019866)	563	39	11.95	+	3.26	1.02E-10	7.48E-09
+mitochondrial inner membrane (GO:0005743)	506	35	10.74	+	3.26	1.01E-09	7.15E-08
+protein-DNA complex (GO:0032993)	207	14	4.40	+	3.19	1.45E-04	3.92E-03
+nuclear chromosome (GO:0000228)	241	15	5.12	+	2.93	2.12E-04	5.66E-03
+nuclear envelope (GO:0005635)	462	27	9.81	+	2.75	2.35E-06	9.87E-05
+nucleolus (GO:0005730)	878	51	18.64	+	2.74	7.51E-11	5.72E-09
+chromosomal region (GO:0098687)	403	23	8.56	+	2.69	1.92E-05	6.29E-04
+nuclear protein-containing complex (GO:0140513)	1413	80	30.00	+	2.67	4.88E-16	9.12E-14
+ribosome (GO:0005840)	233	13	4.95	+	2.63	1.50E-03	3.22E-02
+organelle envelope (GO:0031967)	1271	70	26.99	+	2.59	1.74E-13	2.55E-11
+nuclear speck (GO:0016607)	404	22	8.58	+	2.56	5.87E-05	1.70E-03
+mitochondrial matrix (GO:0005759)	540	29	11.47	+	2.53	5.24E-06	1.99E-04
+mitochondrial envelope (GO:0005740)	837	44	17.77	+	2.48	4.34E-08	2.35E-06
+nuclear ribonucleoprotein granule (GO:0140168)	457	24	9.70	+	2.47	4.86E-05	1.43E-03
+mitochondrial membrane (GO:0031966)	793	41	16.84	+	2.43	1.83E-07	9.67E-06
+ribonucleoprotein granule (GO:0035770)	690	33	14.65	+	2.25	1.81E-05	6.22E-04
+mitochondrion (GO:0005739)	1777	84	37.73	+	2.23	2.63E-12	2.85E-10
+nuclear body (GO:0016604)	786	31	16.69	+	1.86	9.21E-04	2.04E-02
+catalytic complex (GO:1902494)	2016	77	42.81	+	1.80	3.38E-07	1.69E-05
+organelle lumen (GO:0043233)	5451	205	115.75	+	1.77	2.94E-20	2.01E-17
+intracellular organelle lumen (GO:0070013)	5451	205	115.75	+	1.77	2.94E-20	1.51E-17
+membrane-enclosed lumen (GO:0031974)	5451	205	115.75	+	1.77	2.94E-20	1.21E-17
+nuclear lumen (GO:0031981)	4156	156	88.25	+	1.77	3.29E-14	5.20E-12
+intracellular protein-containing complex (GO:0140535)	1052	39	22.34	+	1.75	8.63E-04	1.95E-02
+cytosol (GO:0005829)	5145	190	109.25	+	1.74	1.72E-17	3.94E-15
+nucleoplasm (GO:0005654)	3828	141	81.28	+	1.73	4.46E-12	4.37E-10
+protein-containing complex (GO:0032991)	6316	221	134.12	+	1.65	2.43E-18	6.24E-16
+supramolecular complex (GO:0099080)	1871	63	39.73	+	1.59	2.69E-04	7.01E-03
+membrane protein complex (GO:0098796)	1524	50	32.36	+	1.55	2.18E-03	4.39E-02
+extracellular exosome (GO:0070062)	2102	66	44.63	+	1.48	1.32E-03	2.90E-02
+organelle membrane (GO:0031090)	3855	121	81.86	+	1.48	3.99E-06	1.61E-04
+extracellular organelle (GO:0043230)	2132	66	45.27	+	1.46	1.88E-03	3.90E-02
+extracellular vesicle (GO:1903561)	2132	66	45.27	+	1.46	1.88E-03	3.86E-02
+extracellular membrane-bounded organelle (GO:0065010)	2132	66	45.27	+	1.46	1.88E-03	3.82E-02
+cytoplasm (GO:0005737)	11932	346	253.37	+	1.37	4.76E-21	4.90E-18
+vesicle (GO:0031982)	4074	117	86.51	+	1.35	3.35E-04	8.19E-03
+intracellular membraneless organelle (GO:0043232)	5569	158	118.25	+	1.34	2.62E-05	8.18E-04
+membraneless organelle (GO:0043228)	5570	158	118.27	+	1.34	2.63E-05	8.08E-04
+nucleus (GO:0005634)	7289	203	154.78	+	1.31	1.83E-06	7.84E-05
+intracellular membrane-bounded organelle (GO:0043231)	12186	335	258.76	+	1.29	1.25E-14	2.14E-12
+membrane-bounded organelle (GO:0043227)	13314	365	282.71	+	1.29	1.57E-18	4.63E-16
+intracellular anatomical structure (GO:0005622)	15076	406	320.13	+	1.27	5.88E-26	1.21E-22
+organelle (GO:0043226)	14194	375	301.40	+	1.24	2.24E-16	4.60E-14
+intracellular organelle (GO:0043229)	13340	352	283.26	+	1.24	3.90E-13	5.34E-11
+cellular anatomical structure (GO:0110165)	18894	433	401.20	+	1.08	1.07E-11	9.99E-10
+cellular_component (GO:0005575)	18986	433	403.15	+	1.07	4.91E-11	3.88E-09
+cell periphery (GO:0071944)	6407	97	136.05	-	.71	3.49E-05	1.06E-03
+plasma membrane (GO:0005886)	5947	87	126.28	-	.69	1.85E-05	6.23E-04
+Unclassified (UNCLASSIFIED)	1594	4	33.85	-	.12	4.91E-11	4.04E-09
